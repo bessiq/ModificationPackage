@@ -1,0 +1,164 @@
+{
+  "conditions": [
+    {
+      "condition": "minecraft:any_of",
+      "terms": [
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "minecraft:chests/ancient_city"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "minecraft:chests/bastion_bridge"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "minecraft:chests/bastion_treasure"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "minecraft:chests/buried_treasure"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "minecraft:chests/desert_pyramid"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "minecraft:chests/end_city_treasure"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "minecraft:chests/jungle_temple"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "minecraft:chests/shipwreck_treasure"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "minecraft:chests/simple_dungeon"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "minecraft:chests/stronghold_corridor"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "minecraft:chests/stronghold_crossing"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "minecraft:chests/stronghold_library"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "minecraft:chests/underwater_ruin_big"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "minecraft:chests/woodland_mansion"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "apotheosis:chests/spawner_brutal"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "apotheosis:chests/spawner_swarm"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "apotheosis:chests/chest_valuable"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "apotheosis:chests/tome_tower"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "aether_villages:chests/olympic_citadel/olympic_citadel_normal"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "aether_villages:chests/olympic_citadel/olympic_citadel_treasure"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "aether_villages:chests/olympic_citadel/olympic_citadel_supply"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "mowziesmobs:chests/monastery_chest"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "mowziesmobs:chests/umvuthana_grove_chest"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "ribbits:chests/merchant"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "totw_modded:tower_chest"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "totw_modded:ocean_tower_chest"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "twilightforest:chests/basement"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "twilightforest:chests/tower_enchanting"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "twilightforest:chests/tower_foyer"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "twilightforest:chests/tower_library"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "twilightforest:chests/tower_room"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "twilight_treehouses:chests/treehouse_abode/treehouse_abode_normal"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "twilight_treehouses:chests/treehouse_cabin/treehouse_cabin_normal"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "twilight_treehouses:chests/treehouse_chalet/treehouse_chalet_normal"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "twilight_treehouses:chests/treehouse_lodge/treehouse_lodge_normal"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "aether:chests/dungeon/bronze/bronze_dungeon"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "aether:chests/dungeon/silver/silver_dungeon"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "aether:chests/dungeon/gold/gold_dungeon"
+        }
+      ]
+    }
+  ],
+  "type": "lootbundles:fragment",
+  "probability": 0.12,
+  "maxCount": 3
+}

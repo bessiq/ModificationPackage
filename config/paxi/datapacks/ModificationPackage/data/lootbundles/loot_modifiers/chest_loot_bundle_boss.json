@@ -1,0 +1,36 @@
+{
+  "conditions": [
+    {
+      "condition": "minecraft:any_of",
+      "terms": [
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "bosses_of_mass_destruction:chests/gauntlet"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "bosses_of_mass_destruction:chests/lich_tower"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "bosses_of_mass_destruction:chests/obsidilith"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "fdbosses:chest/chesed_dungeon/base_chest"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "cataclysm:chests/acropolis_treasure"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "cataclysm:chests/frosted_prison_treasure"
+        }
+      ]
+    }
+  ],
+  "type": "lootbundles:loot_bundle",
+  "probability": 1.0,
+  "maxCount": 5
+}

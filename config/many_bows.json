@@ -1,0 +1,16 @@
+{
+  "easyLootEnabled": true,
+  "easyLootDropChance": 0.08,
+  "mediumLootEnabled": true,
+  "mediumLootDropChance": 0.06,
+  "hardLootEnabled": true,
+  "hardLootDropChance": 0.04,
+  "endgameLootEnabled": true,
+  "endgameLootDropChance": 0.02,
+  "globalBowPullSpeed": 16.0,
+  "emeraldSageXpAmount": 10,
+  "emeraldSageXpBlacklist": [
+    "minecraft:armor_stand",
+    "minecraft:wandering_trader"
+  ]
+}

@@ -1,0 +1,1741 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "modification_package"
+	group: ""
+	icon: {
+		components: {
+			"ftbquests:icon": "minecraft:block/observer_front"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "229F0E5FE4C8F6C9"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "61F98472FAA3FC64"
+			rewards: [{
+				id: "793E6EAF2D6E89ED"
+				item: {
+					count: 1
+					id: "ftbquests:book"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				dimension: "minecraft:overworld"
+				icon: {
+					components: {
+						"ftbquests:icon": "minecraft:block/grass_block_side"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "01F7C8E047135FEE"
+				type: "dimension"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			id: "4D0DDE7B1F348576"
+			rewards: [{
+				id: "23DF171692AC1C88"
+				item: {
+					count: 1
+					id: "lootbundles:loot_bundle"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0BFAF4B6955FCC80"
+				item: { count: 1, id: "luggage:luggage" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			id: "71B680FEA9FB0215"
+			rewards: [
+				{
+					id: "233071C1C731AB00"
+					type: "xp"
+					xp: 42
+				}
+				{
+					count: 3
+					id: "13C6AC19C556AE62"
+					item: {
+						count: 1
+						id: "lootbundles:fragment"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7771B401A6983383"
+				item: { count: 1, id: "actuallyadditions:crafter_on_a_stick" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			id: "5580DEA9B1432A1B"
+			rewards: [
+				{
+					id: "370E4D159226ED85"
+					type: "xp"
+					xp: 42
+				}
+				{
+					count: 3
+					id: "7D80B6BA61FE4926"
+					item: {
+						count: 1
+						id: "lootbundles:fragment"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "76D92C127E86F741"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(c:tools/knife)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			id: "47C61894BB6B4D59"
+			rewards: [
+				{
+					id: "0CA21A8D1832B6C5"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 3
+					id: "274CF514A2BAA3B0"
+					item: {
+						count: 1
+						id: "lootbundles:fragment"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7B7D86F391F43ADE"
+				item: { components: { "patchouli:book": "apotheosis:apoth_chronicle" }, count: 1, id: "patchouli:guide_book" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -5.0d
+		}
+		{
+			id: "5D8DBAA09D4873B6"
+			rewards: [
+				{
+					id: "18C6CEE22FCFE58E"
+					type: "xp"
+					xp: 42
+				}
+				{
+					count: 3
+					id: "53648009E02DF9B0"
+					item: {
+						count: 1
+						id: "lootbundles:fragment"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "37B7A87F855BA2BB"
+				item: { count: 1, id: "adorn:guide_book" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			id: "4CE9D152E847509E"
+			rewards: [
+				{
+					id: "5A404D131217D120"
+					item: {
+						count: 1
+						id: "farmersdelight:melon_popsicle"
+					}
+					type: "item"
+				}
+				{
+					id: "4A97D1F594430B15"
+					type: "xp"
+					xp: 42
+				}
+			]
+			tasks: [{
+				id: "40CF63C7C4C542E3"
+				item: { count: 1, id: "solcarrot:food_book" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			id: "6B31CECC661FB07F"
+			rewards: [
+				{
+					id: "0036BB9AF1425ABE"
+					type: "xp"
+					xp: 42
+				}
+				{
+					count: 3
+					id: "3BDB7433C485D426"
+					item: {
+						count: 1
+						id: "lootbundles:fragment"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5539C10400DE0D5B"
+				item: { count: 1, id: "adorn:traders_manual" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2752D69B0D54887D"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "0ACFE2928803559E"
+			rewards: [
+				{
+					id: "2A2E7898A694F81E"
+					item: {
+						count: 1
+						id: "twilightdelight:cooked_insect"
+					}
+					type: "item"
+				}
+				{
+					id: "7835C9184886C190"
+					type: "xp"
+					xp: 42
+				}
+			]
+			tasks: [{
+				id: "0F68EAC60DD9A46F"
+				item: { components: { "patchouli:book": "twilightdelight:twilight_guide" }, count: 1, id: "patchouli:guide_book" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			id: "2752D69B0D54887D"
+			rewards: [
+				{
+					id: "15D849B5C1EA367C"
+					item: {
+						count: 1
+						id: "lootbundles:loot_bundle"
+					}
+					type: "item"
+				}
+				{
+					id: "7A179182588E4DB5"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				dimension: "twilightforest:twilight_forest"
+				icon: {
+					id: "twilightforest:lich_trophy"
+				}
+				id: "424C60946ABB4AFE"
+				type: "dimension"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			id: "0D33FDA48C91C4FF"
+			rewards: [
+				{
+					id: "4033A23596EF7616"
+					item: {
+						count: 1
+						id: "lootbundles:loot_bundle"
+					}
+					type: "item"
+				}
+				{
+					id: "1A6E5892E41F3E09"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				dimension: "aether:the_aether"
+				icon: {
+					id: "aether:aether_portal_frame"
+				}
+				id: "06462D413C0D0FD1"
+				type: "dimension"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			id: "31B1CB4EF9465493"
+			rewards: [
+				{
+					id: "4127493EDB51A929"
+					item: {
+						count: 1
+						id: "lootbundles:loot_bundle"
+					}
+					type: "item"
+				}
+				{
+					id: "0251853F57D41E45"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				icon: {
+					components: {
+						"ftbquests:icon": "minecraft:block/nether_portal"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "4A7BCFD5CC24D61D"
+				type: "dimension"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			id: "0583CA4F658FC553"
+			rewards: [
+				{
+					id: "6B58EEFC8E431DC7"
+					item: {
+						count: 1
+						id: "lootbundles:loot_bundle"
+					}
+					type: "item"
+				}
+				{
+					id: "7DD3BF96E55EACA3"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				dimension: "minecraft:the_end"
+				icon: {
+					components: {
+						"ftbquests:icon": "minecraft:textures/entity/end_portal.png"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "6B4AABC0D2ACA9D5"
+				type: "dimension"
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			id: "6C552A4F641ACAE6"
+			rewards: [
+				{
+					id: "0ED242244A62E7CB"
+					type: "xp"
+					xp: 42
+				}
+				{
+					count: 3
+					id: "4F5FF9DA70AF3B01"
+					item: {
+						count: 1
+						id: "lootbundles:fragment"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0A6B9DA6016133AE"
+				item: { count: 1, id: "a_man_with_plushies:plush_box" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			id: "36DF7785E2814072"
+			rewards: [
+				{
+					id: "404EC2D2E5C8F34A"
+					type: "xp"
+					xp: 42
+				}
+				{
+					count: 3
+					id: "44528658B3F512B3"
+					item: {
+						count: 1
+						id: "lootbundles:fragment"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "661A9DB28755A0D5"
+				item: { count: 1, id: "mowziesmobs:spear" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 5.0d
+		}
+		{
+			id: "2CA77A38F335F486"
+			rewards: [
+				{
+					count: 3
+					id: "5DE3267CADD93F2E"
+					item: {
+						count: 1
+						id: "lootbundles:fragment"
+					}
+					type: "item"
+				}
+				{
+					id: "32E303358CB020AB"
+					type: "xp"
+					xp: 42
+				}
+			]
+			tasks: [{
+				id: "0164C5C7E9890AE5"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(paraglider:paragliders)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "neighborly:textures/neighborly_icon.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "7A07A3AA8BF66E9E"
+			rewards: [
+				{
+					id: "2DEDC3D6A8A09B9C"
+					type: "xp"
+					xp: 42
+				}
+				{
+					count: 3
+					id: "1A5CF0F4680DAC57"
+					item: {
+						count: 1
+						id: "lootbundles:fragment"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "405FA628F5E21F44"
+				item: { components: { "ftbfiltersystem:filter": "or(item(neighborly:chloe_cat_spawn_egg)item(neighborly:thompson_frog_spawn_egg)item(neighborly:shroomer_spawn_egg)item(neighborly:barrybear_spawn_egg)item(neighborly:duckley_spawn_egg)item(neighborly:jammer_cat_spawn_egg)item(neighborly:jasper_spawn_egg)item(neighborly:sigma_spawn_egg)item(neighborly:sparkle_spawn_egg)item(neighborly:duncan_spawn_egg)item(neighborly:sapphire_penguin_spawn_egg)item(neighborly:roxy_imp_spawn_egg))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -4.0d
+		}
+		{
+			id: "1A41A6F331C2A96A"
+			rewards: [
+				{
+					id: "4CF79B1A296A36E8"
+					item: {
+						count: 1
+						id: "oritech:still_oil_bucket"
+					}
+					type: "item"
+				}
+				{
+					id: "6EF6292CC712FDD7"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "59047D9692D7AF38"
+				item: { count: 1, id: "oritech:basic_generator_block" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			id: "5172F9E4DB882045"
+			rewards: [
+				{
+					id: "556498D201E1AB9A"
+					item: {
+						count: 1
+						id: "sophisticatedbackpacks:upgrade_base"
+					}
+					type: "item"
+				}
+				{
+					id: "142485EB3A80E51C"
+					type: "xp"
+					xp: 42
+				}
+			]
+			tasks: [{
+				id: "11366B30D44FFD4F"
+				item: { count: 1, id: "sophisticatedbackpacks:backpack" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			id: "2BBA15B5BC9C6C80"
+			rewards: [
+				{
+					id: "25B9D23A19F677F7"
+					item: {
+						count: 1
+						id: "sophisticatedstorage:upgrade_base"
+					}
+					type: "item"
+				}
+				{
+					id: "779A9CF8DF75264A"
+					type: "xp"
+					xp: 42
+				}
+			]
+			tasks: [{
+				id: "316B758249FFE7E7"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(sophisticatedstorage:all_storage)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			id: "6EDECD8F395E92A9"
+			rewards: [{
+				id: "716A4E920D85FA3C"
+				item: {
+					count: 1
+					id: "lootbundles:loot_bundle"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1CC2104554756464"
+				item: { count: 1, id: "toms_storage:storage_terminal" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			id: "69E9EEAEB18AEAB8"
+			rewards: [
+				{
+					id: "2CFDA4257F33DB29"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 3
+					id: "763EF7F3C544D847"
+					item: {
+						count: 1
+						id: "lootbundles:fragment"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: {
+					components: {
+						"ftbquests:icon": "ribbits:item/umbrella_leaf"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "739C73D5804B1019"
+				structure: "ribbits:ribbit_village"
+				type: "structure"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			id: "43EB8505A1B0F75F"
+			rewards: [{
+				id: "445DC97248ECFEDD"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "1122F0DD9D03FB8D"
+				item: { count: 1, id: "enchantinginfuser:enchanting_infuser" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			id: "042AD5A05134784D"
+			rewards: [
+				{
+					id: "14AC5F76E878421B"
+					type: "xp"
+					xp: 1
+				}
+				{
+					count: 3
+					id: "12ABAD54F1955122"
+					item: {
+						count: 1
+						id: "lootbundles:fragment"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3461C5B6EE543BAB"
+				item: { count: 1, id: "fdbosses:eye_of_chesed" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			id: "7CDC0C7675D33755"
+			rewards: [
+				{
+					id: "1230A5F1963CD540"
+					type: "xp"
+					xp: 42
+				}
+				{
+					count: 12
+					id: "021ACCFC6107BC2D"
+					item: {
+						count: 1
+						id: "minecraft:paper"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1389593DA1B8D403"
+				item: { count: 1, id: "bosses_of_mass_destruction:void_lily" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			id: "673C6F7D31ACEFBB"
+			rewards: [
+				{
+					id: "4CF637D14CB24128"
+					type: "xp"
+					xp: 42
+				}
+				{
+					id: "0D0B376B8DB58881"
+					item: {
+						count: 1
+						id: "friendsandfoes:crab_egg"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "551BF2EB1E49EC2A"
+				item: { count: 1, id: "friendsandfoes:crab_claw" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			id: "50BC5FA056FA3052"
+			rewards: [
+				{
+					id: "32E908056E523BEC"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "508446C19DF6E567"
+					item: {
+						count: 1
+						id: "lootbundles:loot_bundle"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "217F9E37867D49FB"
+				item: { count: 1, id: "rottencreatures:treasure_chest" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "ftbquests:textures/gui/info.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "6B434013DD66804F"
+			rewards: [{
+				id: "0828C828F7AFA07D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "58F9D58C53B57855"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "3DE1AE9465A8991E"
+			rewards: [
+				{
+					id: "42E4BF07889A406A"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 3
+					id: "085F42EBA5DBDFFD"
+					item: {
+						count: 1
+						id: "lootbundles:fragment"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: {
+					id: "waystones:waystone"
+				}
+				id: "3F7D1BAFEC89F66C"
+				observe_type: 1
+				timer: 0L
+				to_observe: "#waystones:waystones"
+				type: "observation"
+			}]
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			id: "3B3E95175FC546DA"
+			rewards: [
+				{
+					id: "4C8A54A039CA7ADE"
+					item: {
+						count: 1
+						id: "lootbundles:loot_bundle"
+					}
+					type: "item"
+				}
+				{
+					id: "57A361E4D569DCEC"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				entity: "minecraft:zombie"
+				entityTypeTag: "mutantmonsters:mutants"
+				icon: {
+					components: {
+						"ftbquests:icon": "mutantmonsters:textures/mob_effect/chemical_x.png"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "61888344770D9F1E"
+				type: "kill"
+				value: 1L
+			}]
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			id: "430D031BC3C41B09"
+			rewards: [
+				{
+					id: "1E55F2FB373AEB22"
+					type: "xp"
+					xp: 42
+				}
+				{
+					count: 3
+					id: "24BB54C02BAA66F1"
+					item: {
+						count: 1
+						id: "lootbundles:fragment"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4187DB4253B64E77"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(comforts:sleeping_bags)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			id: "6141E61DD2F8C545"
+			rewards: [
+				{
+					id: "22E0480564F4ACEE"
+					type: "xp"
+					xp: 42
+				}
+				{
+					count: 3
+					id: "7ED23AFFDDBB0418"
+					item: {
+						count: 1
+						id: "lootbundles:fragment"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "37DD9B80F2C83671"
+				item: { count: 1, id: "untitledduckmod:empty_duck_sack" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -3.0d
+		}
+		{
+			id: "1FB18534BF82AB93"
+			rewards: [
+				{
+					id: "2AA4E71A5CA8E61A"
+					type: "xp"
+					xp: 42
+				}
+				{
+					count: 3
+					id: "65770D878059BF08"
+					item: {
+						count: 1
+						id: "lootbundles:fragment"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2A82F31690D52D9D"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(relics:relic)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			id: "353B47F36F4DE9E3"
+			rewards: [
+				{
+					id: "0F0BFF89A2771E2D"
+					type: "xp"
+					xp: 42
+				}
+				{
+					id: "7DCEF4F7075B0C01"
+					item: {
+						count: 1
+						id: "minecraft:ender_pearl"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2D126D0D0BE5DD31"
+				item: { components: { "ftbfiltersystem:filter": "mod(endermanoverhaul)item_tag(c:ender_pearls)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			id: "37D4BB6715D88630"
+			tasks: [{
+				id: "3470A3C47662A372"
+				item: { count: 1, id: "creeperoverhaul:tiny_cactus" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			id: "5EA7E4BC36B36777"
+			rewards: [
+				{
+					id: "2EC0DB8F368A0FA4"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 64
+					id: "26470E554959093B"
+					item: {
+						components: {
+							"minecraft:potion_contents": {
+								potion: "minecraft:harming"
+							}
+						}
+						count: 1
+						id: "minecraft:tipped_arrow"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4BB9ACA974A14E82"
+				item: { components: { "ftbfiltersystem:filter": "mod(too_many_bows)item_tag(minecraft:enchantable/bow)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 5.0d
+		}
+		{
+			id: "6F59255CCFF62CA6"
+			rewards: [
+				{
+					id: "46CD44A61B5F817C"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 3
+					id: "63ACC46DF630846A"
+					item: {
+						count: 1
+						id: "lootbundles:fragment"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3552699DEE9DC48E"
+				item: { components: { "ftbfiltersystem:filter": "or(item(cataclysm:storm_eye)item(cataclysm:cursed_eye)item(cataclysm:desert_eye)item(cataclysm:abyss_eye)item(cataclysm:monstrous_eye)item(cataclysm:void_eye)item(cataclysm:flame_eye)item(cataclysm:mech_eye))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 5.0d
+		}
+		{
+			id: "7CAC652FAEFBC49B"
+			rewards: [
+				{
+					id: "5DDD03DA85E1F608"
+					type: "xp"
+					xp: 42
+				}
+				{
+					count: 3
+					id: "6343DD5A5498BDFC"
+					item: {
+						count: 1
+						id: "lootbundles:fragment"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6B1C2184AA6C2D21"
+				item: { components: { "ftbfiltersystem:filter": "or(item(aether_protect_your_moa:leather_moa_armor)item(aether_protect_your_moa:iron_moa_armor)item(aether_protect_your_moa:golden_moa_armor)item(aether_protect_your_moa:diamond_moa_armor)item(aether_protect_your_moa:zanite_moa_armor)item(deep_aether:skyjade_moa_armor)item(aether_protect_your_moa:gravitite_moa_armor))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.0d
+		}
+		{
+			id: "5614D2BEEAA5D753"
+			rewards: [
+				{
+					count: 6
+					id: "11249778E6F1FBE0"
+					item: {
+						count: 1
+						id: "farmersdelight:milk_bottle"
+					}
+					type: "item"
+				}
+				{
+					id: "4129B72A24B2619C"
+					type: "xp"
+					xp: 42
+				}
+			]
+			tasks: [{
+				id: "4B7390DEDE812FE9"
+				item: { components: { "ftbfiltersystem:filter": "mod(lendersdelight)not(item_tag(c:tools/knife))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.0d
+		}
+		{
+			id: "30BB4F773740CC8C"
+			rewards: [
+				{
+					id: "5744B1C1EF8FFDBE"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "03475F20A075C26F"
+					item: {
+						count: 1
+						id: "mob_loot_bags:cursed_lootbag"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: {
+					id: "yigd:grave"
+				}
+				id: "1D2DDB6DD88DB5ED"
+				observe_type: 0
+				timer: 0L
+				to_observe: "yigd:grave"
+				type: "observation"
+			}]
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			id: "6ACC6FECCDD1B4D4"
+			rewards: [
+				{
+					id: "3A761FC25139D524"
+					type: "xp"
+					xp: 42
+				}
+				{
+					count: 3
+					id: "074B7C2F17A5F3B6"
+					item: {
+						count: 1
+						id: "lootbundles:fragment"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "557FA1520AA330C2"
+				item: { count: 1, id: "minecraft:wolf_armor" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -5.0d
+		}
+		{
+			id: "795F3BACF11B0B5F"
+			rewards: [
+				{
+					id: "7A5F0C3F91EDF777"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "294952E9A402536E"
+					item: {
+						count: 1
+						id: "lootbundles:loot_bundle"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "644CB87D59AF6067"
+				item: { count: 1, id: "minecraft:trial_key" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -5.0d
+		}
+		{
+			id: "200E9F4486E74664"
+			rewards: [
+				{
+					id: "6D4A1A5113BFFBDA"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "539585E0AA73ADCE"
+					item: {
+						count: 1
+						id: "lootbundles:loot_bundle"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5D61B3C19BB30C46"
+				item: { count: 1, id: "vanillabackport:dried_ghast" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -5.0d
+		}
+		{
+			id: "6268DF8056618810"
+			rewards: [
+				{
+					id: "366D88C68AD22C29"
+					type: "xp"
+					xp: 42
+				}
+				{
+					id: "5D8650B39FF62B23"
+					item: {
+						count: 1
+						id: "lootbundles:loot_bundle"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "vanillabackport:creaking"
+				icon: {
+					components: {
+						"ftbquests:icon": "vanillabackport:block/creaking_heart_top_awake"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "275B2AE1F67FABB7"
+				type: "kill"
+				value: 1L
+			}]
+			x: -0.5d
+			y: -5.0d
+		}
+		{
+			id: "63AE19E850CCAB20"
+			rewards: [
+				{
+					id: "76A6A169C4B9BA3C"
+					type: "xp"
+					xp: 42
+				}
+				{
+					id: "3F040C7C55D046B1"
+					item: {
+						count: 1
+						id: "lootbundles:loot_bundle"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "081B503CB6C14B20"
+				item: { components: { "ftbfiltersystem:filter": "or(item(mob_loot_bags:commonlootbag)item(mob_loot_bags:uncommonlootbag)item(mob_loot_bags:rarelootbag)item(mob_loot_bags:epiclootbag)item(mob_loot_bags:legendarylootbag)item(mob_loot_bags:cursed_lootbag)item(mob_loot_bags:timed_loot_bag)item(mob_loot_bags:locked_lootbags)item(mob_loot_bags:summoning_lootbags))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			id: "4A512C22582BFD0C"
+			rewards: [
+				{
+					id: "633A2AAD3233A215"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "33487149EA696DD6"
+					item: {
+						count: 1
+						id: "lootbundles:loot_bundle"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: {
+					id: "biomesoplenty:anomaly"
+				}
+				id: "1679D49AB8554C5A"
+				observe_type: 0
+				timer: 0L
+				to_observe: "biomesoplenty:anomaly"
+				type: "observation"
+			}]
+			x: -4.5d
+			y: -1.0d
+		}
+		{
+			id: "143843F61ED6EC6A"
+			rewards: [
+				{
+					id: "01E0DD00187BB469"
+					item: {
+						count: 1
+						id: "randomium:randomium_ore"
+					}
+					type: "item"
+				}
+				{
+					id: "7DA03D3A1D22C534"
+					type: "xp"
+					xp: 42
+				}
+			]
+			tasks: [{
+				icon: {
+					id: "randomium:randomium_ore"
+				}
+				id: "3B093EA1D0224A64"
+				observe_type: 1
+				timer: 0L
+				to_observe: "c:ores/randomium"
+				type: "observation"
+			}]
+			x: -3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0D33FDA48C91C4FF"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "77B8C065A0E72D4A"
+			rewards: [
+				{
+					id: "78EB51827491EBAB"
+					type: "xp"
+					xp: 42
+				}
+				{
+					id: "7A3A0578FD8430A8"
+					item: {
+						count: 1
+						id: "lootbundles:loot_bundle"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7ADAA80DF23F55B0"
+				item: { count: 1, id: "deep_aether:sterling_aercloud" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3DE1AE9465A8991E"]
+			hide_until_deps_complete: true
+			id: "7C2C70F540602C38"
+			rewards: [
+				{
+					id: "4F50F09D9BFED8C3"
+					item: {
+						count: 1
+						id: "lootbundles:loot_bundle"
+					}
+					type: "item"
+				}
+				{
+					id: "3012FE3BAE9C4B5C"
+					type: "xp"
+					xp: 42
+				}
+			]
+			tasks: [{
+				id: "1EEF2370DDA15F42"
+				item: { count: 1, id: "waystones:warp_stone" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1A41A6F331C2A96A"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "68C1B25DE8DF8405"
+			rewards: [
+				{
+					count: 4
+					id: "43FB4000522DA693"
+					item: {
+						count: 1
+						id: "minecraft:jungle_sapling"
+					}
+					type: "item"
+				}
+				{
+					id: "1C61C5BC91FA19E9"
+					type: "xp"
+					xp: 42
+				}
+			]
+			tasks: [{
+				id: "5B46773916539A24"
+				item: { count: 1, id: "oritech:banana" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["71B680FEA9FB0215"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "303B3C4D4DFF0B0F"
+			rewards: [
+				{
+					id: "31B41AD48DA1B20A"
+					type: "xp"
+					xp: 42
+				}
+				{
+					count: 3
+					id: "0CC34B1198690B70"
+					item: {
+						count: 1
+						id: "lootbundles:fragment"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6C1B2B279D6055E7"
+				item: { count: 1, id: "actuallyadditions:coffee_cup" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5D8DBAA09D4873B6"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "433F7525CDAA24B4"
+			rewards: [
+				{
+					id: "395E3574055A9D6E"
+					type: "xp"
+					xp: 42
+				}
+				{
+					count: 3
+					id: "41C46B4D20234086"
+					item: {
+						count: 1
+						id: "lootbundles:fragment"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "777C09A7A64CE19D"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(adorn:kitchen_sinks)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["430D031BC3C41B09"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "66FB44FC2C7795AD"
+			rewards: [
+				{
+					id: "4281880D51763663"
+					type: "xp"
+					xp: 42
+				}
+				{
+					count: 3
+					id: "3AFE6A7659EE495B"
+					item: {
+						count: 1
+						id: "lootbundles:fragment"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "71B1C82445E67AAD"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(comforts:hammocks)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -3.0d
+		}
+		{
+			id: "3EFF0239D9EC76F8"
+			rewards: [
+				{
+					id: "294F363A4506CFA2"
+					type: "xp"
+					xp: 42
+				}
+				{
+					id: "6D55849E35514BE7"
+					item: {
+						count: 1
+						id: "paraglider:spirit_orb"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: {
+					id: "paraglider:goddess_statue"
+				}
+				id: "4EB62818CC92A2B6"
+				observe_type: 1
+				timer: 0L
+				to_observe: "paraglider:statues/goddess"
+				type: "observation"
+			}]
+			x: 2.5d
+			y: -5.0d
+		}
+		{
+			id: "60AFCB2CADEBF15D"
+			rewards: [
+				{
+					id: "260C8D596013F871"
+					item: {
+						count: 1
+						id: "minecraft:cake"
+					}
+					type: "item"
+				}
+				{
+					id: "1767847C7ACFB4C9"
+					item: {
+						count: 1
+						id: "farmersdelight:sweet_berry_cheesecake"
+					}
+					type: "item"
+				}
+				{
+					id: "1324B8F74108171C"
+					item: {
+						count: 1
+						id: "farmersdelight:chocolate_pie"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2EA448E5E30F93A8"
+				item: { components: { "ftbfiltersystem:filter": "food_value(>10)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -3.0d
+		}
+		{
+			id: "169410EE85B988F5"
+			rewards: [
+				{
+					id: "062DDEE1B59598CC"
+					type: "xp"
+					xp: 42
+				}
+				{
+					count: 3
+					id: "7F730C47C45B9AA7"
+					item: {
+						count: 1
+						id: "lootbundles:fragment"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: {
+					components: {
+						"ftbquests:icon": "relics:item/aqua_walker_bubble"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "08EE94B39EEBBE45"
+				stat: "littlejoys:fishing_spots"
+				type: "stat"
+				value: 1
+			}]
+			x: 3.5d
+			y: 3.0d
+		}
+		{
+			id: "3DB39FC1664B389C"
+			min_width: 250
+			rewards: [
+				{
+					id: "5E63E200BC6DB96B"
+					type: "xp"
+					xp: 42
+				}
+				{
+					id: "020299DBF2995879"
+					item: {
+						count: 1
+						id: "actuallyadditions:tiny_torch"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "31F3500BEEF2B7E8"
+				item: { components: { "ftbfiltersystem:filter": "mod(nightlights)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			id: "538E8246144F2405"
+			rewards: [
+				{
+					id: "0F24470CA8059BEB"
+					type: "xp"
+					xp: 42
+				}
+				{
+					count: 3
+					id: "63AD2427DBE0D0D3"
+					item: {
+						count: 1
+						id: "lootbundles:fragment"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: {
+					id: "crittersandcompanions:silk_cocoon"
+				}
+				id: "63C18EF47897192D"
+				observe_type: 0
+				timer: 0L
+				to_observe: "crittersandcompanions:silk_cocoon"
+				type: "observation"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			id: "0EC6556CD9E5A2C3"
+			rewards: [
+				{
+					id: "26758C112293D81A"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "5FA0DCA672F39C10"
+					item: {
+						count: 1
+						id: "simplyswords:runic_tablet"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "774B3A217125ADA0"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(simplyswords:uniques)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 5.0d
+		}
+		{
+			id: "36B7E4BBDB818F7B"
+			rewards: [
+				{
+					id: "6654B1C42EDFA4D8"
+					type: "xp"
+					xp: 42
+				}
+				{
+					id: "33E0622B4952B6B5"
+					item: {
+						count: 1
+						id: "collectorsalbum:common_card_pack"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "468A0C885B25E4C0"
+				item: { count: 1, id: "collectorsalbum:album" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6C552A4F641ACAE6"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "2D18D42409605EFB"
+			rewards: [
+				{
+					id: "05E34F09796808DE"
+					type: "xp"
+					xp: 42
+				}
+				{
+					count: 3
+					id: "4EC40AD7DEEA5E81"
+					item: {
+						count: 1
+						id: "lootbundles:fragment"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "562CBB427F34B722"
+				item: { count: 1, id: "a_man_with_plushies:golden_plush_box" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			id: "4CB519C4780ACEB2"
+			rewards: [
+				{
+					id: "708A7A86671C3079"
+					type: "xp"
+					xp: 42
+				}
+				{
+					count: 3
+					id: "2AB561F0D525E762"
+					item: {
+						count: 1
+						id: "lootbundles:fragment"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: {
+					components: {
+						"ftbquests:icon": "minecraft:textures/map/decorations/plains_village.png"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "46F59E1BD5888B75"
+				structure: "#adorabuild_structures:any_structure"
+				type: "structure"
+			}]
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			id: "4933249A1EFF2D6A"
+			rewards: [
+				{
+					id: "7C0A296791E6AFB4"
+					type: "xp"
+					xp: 42
+				}
+				{
+					id: "764A79EFBF519C72"
+					item: {
+						count: 1
+						id: "minecraft:cactus"
+					}
+					type: "item"
+				}
+				{
+					id: "4A40599A27E689F8"
+					item: {
+						count: 1
+						id: "minecraft:dead_bush"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3A368ACD873D8736"
+				item: { count: 1, id: "golemoverhaul:clay_golem_statue" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5580DEA9B1432A1B"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "084A4D31D5C93BCE"
+			min_width: 260
+			rewards: [
+				{
+					id: "6E1C12A5C57CC4DD"
+					type: "xp"
+					xp: 42
+				}
+				{
+					id: "01CC0257EC5E3994"
+					item: {
+						count: 1
+						id: "farmersdelight:canvas"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1E33F09CC0022E79"
+				item: { count: 1, id: "farmersdelight:cutting_board" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+	]
+}
