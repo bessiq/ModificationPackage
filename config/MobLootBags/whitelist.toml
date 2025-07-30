@@ -1,7 +1,0 @@
-[Whitelist]
-	enable = false
-	whitelist = [" "]
-
-[Blacklist]
-	enable = false
-	blacklist = [" "]
