@@ -127,7 +127,7 @@
 	#Potion HUD position (Y)
 	# Default: 20
 	# Range: -9999 ~ 9999
-	yPotionPos = 59
+	yPotionPos = 46
 	#Helmet position (X)
 	# Default: 103
 	# Range: -9999 ~ 9999
