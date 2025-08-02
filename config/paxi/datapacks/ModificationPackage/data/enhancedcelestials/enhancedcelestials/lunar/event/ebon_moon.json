@@ -1,0 +1,177 @@
+{
+  "anvil_cost_amplifier": 1.0,
+  "beacon_radius_amplifier": 1.0,
+  "client_settings": {
+    "color_settings": {
+      "moon_texture_color": "100400",
+      "sky_light_color": "100400"
+    },
+    "moon_size": 10.0,
+    "moon_texture_location": "minecraft:textures/environment/moon_phases.png",
+    "sound_track": {
+      "sound_id": "modificationpackage:tdziewiecdz"
+    }
+  },
+  "dimension_chances": {
+    "minecraft:overworld": {
+      "chance": 0.03,
+      "min_number_of_nights_between": 13,
+      "valid_moon_phases": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    }
+  },
+  "drops": {
+    "drop_enhancer": {}
+  },
+  "enchantment_table_cost_amplifier": 1.0,
+  "mob_settings": {
+    "blocks_sleeping": {
+      "type": "corgilib:any"
+    },
+    "lunar_spawn_settings": {
+      "force_surface_spawning": true,
+      "mob_spawn_settings": {
+        "spawn_costs": {},
+        "spawners": {
+          "ambient": [],
+          "axolotls": [],
+          "creature": [],
+          "misc": [],
+          "monster": [
+            {
+              "type": "minecraft:phantom",
+              "weight": 10,
+              "minCount": 1,
+              "maxCount": 1
+            },
+            {
+              "type": "benssharks:thalassoger",
+              "weight": 1,
+              "minCount": 1,
+              "maxCount": 1
+            },
+            {
+              "type": "twilightforest:mosquito_swarm",
+              "weight": 25,
+              "minCount": 2,
+              "maxCount": 3
+            },
+            {
+              "type": "aether:whirlwind",
+              "weight": 20,
+              "minCount": 2,
+              "maxCount": 3
+            },
+            {
+              "type": "rottencreatures:scarab",
+              "weight": 25,
+              "minCount": 2,
+              "maxCount": 3
+            },
+            {
+              "type": "minecraft:witch",
+              "weight": 50,
+              "minCount": 2,
+              "maxCount": 3
+            },
+            {
+              "type": "minecraft:ravager",
+              "weight": 25,
+              "minCount": 2,
+              "maxCount": 3
+            },
+            {
+              "type": "minecraft:illusioner",
+              "weight": 30,
+              "minCount": 2,
+              "maxCount": 3
+            },
+            {
+              "type": "minecraft:breeze",
+              "weight": 1,
+              "minCount": 1,
+              "maxCount": 1
+            },
+            {
+              "type": "minecraft:zombie",
+              "weight": 65,
+              "minCount": 2,
+              "maxCount": 3
+            },
+            {
+              "type": "minecraft:skeleton",
+              "weight": 65,
+              "minCount": 2,
+              "maxCount": 3
+            },
+            {
+              "type": "mutantmonsters:mutant_zombie",
+              "weight": 80,
+              "minCount": 2,
+              "maxCount": 3
+            },
+            {
+              "type": "mutantmonsters:mutant_skeleton",
+              "weight": 80,
+              "minCount": 2,
+              "maxCount": 3
+            },
+            {
+              "type": "mutantmonsters:mutant_creeper",
+              "weight": 70,
+              "minCount": 2,
+              "maxCount": 3
+            },
+            {
+              "type": "mutantmonsters:mutant_enderman",
+              "weight": 60,
+              "minCount": 2,
+              "maxCount": 3
+            }
+          ],
+          "underground_water_creature": [],
+          "water_ambient": [],
+          "water_creature": []
+        }
+      },
+      "slimes_spawn_everywhere": false,
+      "use_biome_spawn_settings": false
+    },
+    "mob_effects": [],
+    "spawn_category_multiplier": {
+      "monster": 3.0
+    }
+  },
+  "text_components": {
+    "end_notification": {
+      "type": "CHAT",
+      "component": {
+        "key": "enhancedcelestials.notification.ebon_moon.set"
+      }
+    },
+    "name": {
+      "key": "enhancedcelestials.name.ebon_moon",
+      "style": {
+        "color": "dark_gray"
+      }
+    },
+    "start_notification": {
+      "type": "CHAT",
+      "component": {
+        "key": "enhancedcelestials.notification.ebon_moon.rise",
+        "style": {
+          "color": "dark_gray"
+        }
+      }
+    }
+  },
+  "xp_amplifier": 1.0
+}
