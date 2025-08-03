@@ -52,8 +52,8 @@
 				item: { count: 1, id: "luggage:luggage" }
 				type: "item"
 			}]
-			x: 1.0d
-			y: 0.0d
+			x: -3.0d
+			y: 6.0d
 		}
 		{
 			id: "71B680FEA9FB0215"
@@ -488,7 +488,7 @@
 				item: { count: 1, id: "oritech:basic_generator_block" }
 				type: "item"
 			}]
-			x: 4.0d
+			x: 3.0d
 			y: 0.0d
 		}
 		{
@@ -513,7 +513,7 @@
 				item: { count: 1, id: "sophisticatedbackpacks:backpack" }
 				type: "item"
 			}]
-			x: 2.0d
+			x: 1.0d
 			y: 0.0d
 		}
 		{
@@ -538,7 +538,7 @@
 				item: { components: { "ftbfiltersystem:filter": "item_tag(sophisticatedstorage:all_storage)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 3.0d
+			x: 2.0d
 			y: 0.0d
 		}
 		{
@@ -963,6 +963,9 @@
 			y: 5.0d
 		}
 		{
+			dependencies: ["0D33FDA48C91C4FF"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			id: "7CAC652FAEFBC49B"
 			rewards: [
 				{
@@ -985,7 +988,7 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(aether_protect_your_moa:leather_moa_armor)item(aether_protect_your_moa:iron_moa_armor)item(aether_protect_your_moa:golden_moa_armor)item(aether_protect_your_moa:diamond_moa_armor)item(aether_protect_your_moa:zanite_moa_armor)item(deep_aether:skyjade_moa_armor)item(aether_protect_your_moa:gravitite_moa_armor))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: -4.5d
+			x: -3.5d
 			y: 1.0d
 		}
 		{
@@ -1736,6 +1739,234 @@
 			}]
 			x: 1.5d
 			y: -1.0d
+		}
+		{
+			id: "0EA6B5D4FC5D0237"
+			rewards: [
+				{
+					id: "1A52E3BD91014C40"
+					type: "xp"
+					xp: 42
+				}
+				{
+					count: 3
+					id: "66D477EE8645512D"
+					item: {
+						count: 1
+						id: "lootbundles:fragment"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1BC464EA4F807570"
+				item: { count: 1, id: "knightlib:great_chalice" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -6.0d
+		}
+		{
+			id: "7C2DAFD095C8BFFC"
+			rewards: [
+				{
+					id: "0227ED39EB0809B4"
+					type: "xp"
+					xp: 42
+				}
+				{
+					count: 3
+					id: "1E386C62070AE56C"
+					item: {
+						count: 1
+						id: "lootbundles:fragment"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "253DAA575035877C"
+				item: { count: 1, id: "hominid:gasoline_tank" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.0d
+		}
+		{
+			id: "0EE2D2ECE9AB6A35"
+			rewards: [
+				{
+					id: "1E48B42586A6A44B"
+					type: "xp"
+					xp: 42
+				}
+				{
+					count: 3
+					id: "5BF906E4E7C95BB9"
+					item: {
+						count: 1
+						id: "lootbundles:fragment"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "49719E0952E1991F"
+				item: { count: 1, id: "benssharks:fish_bucket" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			id: "199628F7E38A9BD5"
+			rewards: [
+				{
+					id: "06C6918130C90098"
+					type: "xp"
+					xp: 42
+				}
+				{
+					count: 3
+					id: "1C4C8BF171E4E2B4"
+					item: {
+						count: 1
+						id: "lootbundles:fragment"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: {
+					components: {
+						"bedspreads:decorated_bed": {
+							banner: {
+								components: {
+									"minecraft:banner_patterns": [{
+										color: "purple"
+										pattern: {
+											asset_id: "minecraft:bricks"
+											translation_key: "block.minecraft.banner.bricks"
+										}
+									}]
+								}
+								count: 1
+								id: "minecraft:cyan_banner"
+							}
+							bed: {
+								components: {
+									"bedspreads:decorated_bed": {
+										banner: {
+											components: {
+												"minecraft:banner_patterns": [
+													{
+														color: "cyan"
+														pattern: {
+															asset_id: "minecraft:stripe_downleft"
+															translation_key: "block.minecraft.banner.stripe_downleft"
+														}
+													}
+													{
+														color: "cyan"
+														pattern: {
+															asset_id: "minecraft:stripe_bottom"
+															translation_key: "block.minecraft.banner.stripe_bottom"
+														}
+													}
+													{
+														color: "cyan"
+														pattern: {
+															asset_id: "minecraft:stripe_left"
+															translation_key: "block.minecraft.banner.stripe_left"
+														}
+													}
+													{
+														color: "black"
+														pattern: {
+															asset_id: "minecraft:half_horizontal"
+															translation_key: "block.minecraft.banner.half_horizontal"
+														}
+													}
+													{
+														color: "cyan"
+														pattern: {
+															asset_id: "minecraft:straight_cross"
+															translation_key: "block.minecraft.banner.straight_cross"
+														}
+													}
+													{
+														color: "white"
+														pattern: {
+															asset_id: "minecraft:border"
+															translation_key: "block.minecraft.banner.border"
+														}
+													}
+													{
+														color: "light_blue"
+														pattern: {
+															asset_id: "minecraft:gradient_up"
+															translation_key: "block.minecraft.banner.gradient_up"
+														}
+													}
+													{
+														color: "light_blue"
+														pattern: {
+															asset_id: "minecraft:gradient"
+															translation_key: "block.minecraft.banner.gradient"
+														}
+													}
+												]
+												"minecraft:hide_additional_tooltip": { }
+												"minecraft:item_name": "{\"color\":\"gold\",\"translate\":\"aether.block.aether.swet_banner\"}"
+											}
+											count: 1
+											id: "minecraft:black_banner"
+										}
+										bed: {
+											count: 1
+											id: "minecraft:yellow_bed"
+										}
+									}
+								}
+								count: 1
+								id: "bedspreads:decorated_bed"
+							}
+						}
+					}
+					id: "bedspreads:decorated_bed"
+				}
+				id: "18B633E4B2FA5E51"
+				item: { count: 1, id: "bedspreads:decorated_bed" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -6.0d
+		}
+		{
+			id: "73FDB73F6CB30FE3"
+			rewards: [
+				{
+					id: "3F91CD31E3AFEB77"
+					type: "xp"
+					xp: 42
+				}
+				{
+					count: 64
+					id: "29B397B8D91C6AD7"
+					item: {
+						count: 1
+						id: "minecraft:dried_kelp_block"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0A050EB9943A24F4"
+				item: { count: 1, id: "belts:belt" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
 		}
 	]
 }

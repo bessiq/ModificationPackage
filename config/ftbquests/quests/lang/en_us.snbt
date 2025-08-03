@@ -17,8 +17,12 @@
 	quest.0ACFE2928803559E.title: "What Does Twilight Taste Like?"
 	quest.0D33FDA48C91C4FF.quest_desc: ["You need to glow up."]
 	quest.0D33FDA48C91C4FF.title: "Rarefied Air"
+	quest.0EA6B5D4FC5D0237.quest_desc: ["One of the chalices of all time."]
+	quest.0EA6B5D4FC5D0237.title: "Such A Chalice"
 	quest.0EC6556CD9E5A2C3.quest_desc: ["Some swords are not simply swords. Some swords are not swords at all."]
 	quest.0EC6556CD9E5A2C3.title: "Slap Chop"
+	quest.0EE2D2ECE9AB6A35.quest_desc: ["You're gonna need a bigger boat."]
+	quest.0EE2D2ECE9AB6A35.title: "Chum Bucket"
 	quest.143843F61ED6EC6A.quest_desc: ["I bet you've never seen ore do the Cha Cha Slide!"]
 	quest.143843F61ED6EC6A.title: "RNGesus Take The Wheel"
 	quest.169410EE85B988F5.quest_desc: [
@@ -148,6 +152,7 @@
 	quest.6F59255CCFF62CA6.title: "The Eyes Have It"
 	quest.71B680FEA9FB0215.quest_desc: ["Additional info will be provided."]
 	quest.71B680FEA9FB0215.title: "Craft Actually"
+	quest.73FDB73F6CB30FE3.title: "Satisfying Factory"
 	quest.77B8C065A0E72D4A.quest_desc: ["Elevate your Aether experience."]
 	quest.77B8C065A0E72D4A.title: "We Need To Go Deeper"
 	quest.795F3BACF11B0B5F.quest_desc: ["I hope you like copper."]
@@ -156,6 +161,8 @@
 	quest.7A07A3AA8BF66E9E.title: "Hello Neighbor"
 	quest.7C2C70F540602C38.quest_desc: ["Stack the deck in your favor with this relocation rock."]
 	quest.7C2C70F540602C38.title: "Hearthstone"
+	quest.7C2DAFD095C8BFFC.quest_desc: ["Gimme dabajabaza!"]
+	quest.7C2DAFD095C8BFFC.title: "Gimme Fue Gimme Fai"
 	quest.7CAC652FAEFBC49B.quest_desc: ["She cried Moa, Moa, Moa."]
 	quest.7CAC652FAEFBC49B.title: "With A Rebel Yell"
 	quest.7CDC0C7675D33755.quest_desc: [
@@ -174,6 +181,7 @@
 	task.2EA448E5E30F93A8.title: "Eat a hearty meal."
 	task.316B758249FFE7E7.title: "Obtain some Sophisticated Storage."
 	task.31F3500BEEF2B7E8.title: "Get a Night Light."
+	task.3552699DEE9DC48E.title: "Create a cataclysmic Eye."
 	task.3B093EA1D0224A64.title: "Discover some Randomium Ore."
 	task.3F7D1BAFEC89F66C.title: "Find a Waystone."
 	task.405FA628F5E21F44.title: "Make a friend."
