@@ -3,7 +3,6 @@
   "enable_sound": true,
   "events": [
     "summon minecraft:warden ~ ~ ~",
-    "place structure minecraft:ancient_city",
     "weather thunder",
     "tp @p ~ ~-40 ~",
     "effect give @p minecraft:blindness 10",
@@ -18,6 +17,20 @@
     "place structure minecraft:village_desert",
     "place structure minecraft:ruined_portal",
     "place structure minecraft:pillager_outpost",
-    "place structure minecraft:jungle_temple"
+    "place structure minecraft:jungle_temple",
+    "place structure totw_modded:regular",
+    "place structure repurposed_structures:igloo_grassy",
+    "effect give @p minecraft:levitation 10",
+    "summon friendsandfoes:player_illusion ~ ~ ~",
+    "setblock ~1 ~1 ~1 randomium:randomium_ore replace",
+    "apoth spawn_boss @p",
+    "setblock ~ ~ ~ minecraft:cobweb replace",
+    "setblock ~ ~1 ~ minecraft:lava replace",
+    "setblock ~ ~ ~ minecraft:fire replace",
+    "enhancedcelestials setLunarEvent enhancedcelestials:blood_moon",
+    "give @p lootbundles:loot_bundle 5",
+    "xp set @p 1 levels",
+    "playsound actuallyadditions:duh_duh_duh_duuuh",
+    "fill ~3 ~3 ~3 ~-3 ~ ~-3 minecraft:powder_snow keep"
   ]
 }
