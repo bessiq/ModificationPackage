@@ -1,0 +1,18 @@
+{
+  "ebon": {
+    "sounds": [
+      {
+        "name": "modificationpackage:ebon",
+        "volume": 0.7
+      }
+    ]
+  },
+  "pallid": {
+    "sounds": [
+      {
+        "name": "modificationpackage:pallid",
+        "volume": 0.7
+      }
+    ]
+  }
+}

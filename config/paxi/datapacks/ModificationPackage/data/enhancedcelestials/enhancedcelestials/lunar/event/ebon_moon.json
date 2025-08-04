@@ -9,7 +9,7 @@
     "moon_size": 10.0,
     "moon_texture_location": "minecraft:textures/environment/moon_phases.png",
     "sound_track": {
-      "sound_id": "modificationpackage:tdziewiecdz"
+      "sound_id": "modificationpackage:ebon"
     }
   },
   "dimension_chances": {
@@ -39,18 +39,46 @@
     "lunar_spawn_settings": {
       "force_surface_spawning": true,
       "mob_spawn_settings": {
-        "spawn_costs": {},
+        "spawn_costs": {
+          "aether:evil_whirlwind": {
+            "charge": 0.7,
+            "energy_budget": 0.15
+          },
+          "hominid:juggernaut": {
+            "charge": 0.7,
+            "energy_budget": 0.15
+          },
+          "friendsandfoes:illusioner": {
+            "charge": 0.6,
+            "energy_budget": 0.2
+          },
+          "benssharks:thalassoger": {
+            "charge": 0.6,
+            "energy_budget": 0.2
+          },
+          "minecraft:breeze": {
+            "charge": 0.7,
+            "energy_budget": 0.15
+          }
+        },
         "spawners": {
-          "ambient": [],
+          "ambient": [
+            {
+              "type": "aether:evil_whirlwind",
+              "weight": 1,
+              "minCount": 1,
+              "maxCount": 1
+            }
+          ],
           "axolotls": [],
           "creature": [],
           "misc": [],
           "monster": [
             {
               "type": "minecraft:phantom",
-              "weight": 10,
+              "weight": 5,
               "minCount": 1,
-              "maxCount": 1
+              "maxCount": 2
             },
             {
               "type": "benssharks:thalassoger",
@@ -60,73 +88,67 @@
             },
             {
               "type": "twilightforest:mosquito_swarm",
-              "weight": 25,
-              "minCount": 2,
-              "maxCount": 3
-            },
-            {
-              "type": "aether:whirlwind",
-              "weight": 20,
+              "weight": 35,
               "minCount": 2,
               "maxCount": 3
             },
             {
               "type": "rottencreatures:scarab",
-              "weight": 25,
-              "minCount": 2,
-              "maxCount": 3
-            },
-            {
-              "type": "minecraft:witch",
-              "weight": 50,
-              "minCount": 2,
-              "maxCount": 3
-            },
-            {
-              "type": "minecraft:ravager",
-              "weight": 25,
-              "minCount": 2,
-              "maxCount": 3
-            },
-            {
-              "type": "minecraft:illusioner",
-              "weight": 30,
-              "minCount": 2,
-              "maxCount": 3
-            },
-            {
-              "type": "minecraft:breeze",
-              "weight": 1,
+              "weight": 10,
               "minCount": 1,
               "maxCount": 1
             },
             {
-              "type": "minecraft:zombie",
-              "weight": 65,
-              "minCount": 2,
-              "maxCount": 3
+              "type": "minecraft:witch",
+              "weight": 50,
+              "minCount": 1,
+              "maxCount": 2
             },
             {
-              "type": "minecraft:skeleton",
-              "weight": 65,
-              "minCount": 2,
-              "maxCount": 3
+              "type": "minecraft:ravager",
+              "weight": 35,
+              "minCount": 1,
+              "maxCount": 2
+            },
+            {
+              "type": "friendsandfoes:illusioner",
+              "weight": 30,
+              "minCount": 1,
+              "maxCount": 1
+            },
+            {
+              "type": "minecraft:breeze",
+              "weight": 7,
+              "minCount": 1,
+              "maxCount": 1
+            },
+            {
+              "type": "hominid:vampire",
+              "weight": 30,
+              "minCount": 1,
+              "maxCount": 1
+            },
+            {
+              "type": "hominid:juggernaut",
+              "weight": 50,
+              "minCount": 1,
+              "maxCount": 1
             },
             {
               "type": "mutantmonsters:mutant_zombie",
-              "weight": 80,
+              "weight": 70,
               "minCount": 2,
               "maxCount": 3
             },
             {
               "type": "mutantmonsters:mutant_skeleton",
-              "weight": 80,
+              "weight": 70,
               "minCount": 2,
               "maxCount": 3
             },
             {
               "type": "mutantmonsters:mutant_creeper",
-              "weight": 70,
+              "weight": 65,
               "minCount": 2,
               "maxCount": 3
             },
@@ -147,18 +169,18 @@
     },
     "mob_effects": [],
     "spawn_category_multiplier": {
-      "monster": 3.0
+      "monster": 2.0
     }
   },
   "text_components": {
     "end_notification": {
       "type": "CHAT",
       "component": {
-        "key": "enhancedcelestials.notification.ebon_moon.set"
+        "key": "modificationpackage.notification.ebon_moon.set"
       }
     },
     "name": {
-      "key": "enhancedcelestials.name.ebon_moon",
+      "key": "modificationpackage.name.ebon_moon",
       "style": {
         "color": "dark_gray"
       }
@@ -166,7 +188,7 @@
     "start_notification": {
       "type": "CHAT",
       "component": {
-        "key": "enhancedcelestials.notification.ebon_moon.rise",
+        "key": "modificationpackage.notification.ebon_moon.rise",
         "style": {
           "color": "dark_gray"
         }
