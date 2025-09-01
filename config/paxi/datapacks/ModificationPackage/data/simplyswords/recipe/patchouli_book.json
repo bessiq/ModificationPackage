@@ -1,0 +1,24 @@
+{
+	"conditions": [
+		{
+			"type": "neoforge:mod_loaded",
+			"modid": "patchouli"
+		}
+	],
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{
+			"item": "minecraft:book"
+		},
+		{
+			"tag": "simplyswords:swords"
+		}
+	],
+	"result": {
+		"id": "patchouli:guide_book",
+		"count": 1,
+		"components": {
+			"patchouli:book": "simplyswords:runic_grimoire"
+		}
+	}
+}
