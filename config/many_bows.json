@@ -1,12 +1,12 @@
 {
   "easyLootEnabled": true,
-  "easyLootDropChance": 0.4,
+  "easyLootDropChance": 0.28,
   "mediumLootEnabled": true,
-  "mediumLootDropChance": 0.3,
+  "mediumLootDropChance": 0.21,
   "hardLootEnabled": true,
-  "hardLootDropChance": 0.2,
+  "hardLootDropChance": 0.14,
   "endgameLootEnabled": true,
-  "endgameLootDropChance": 0.1,
+  "endgameLootDropChance": 0.07,
   "globalBowPullSpeed": 16.0,
   "emeraldSageXpAmount": 10,
   "emeraldSageXpBlacklist": [

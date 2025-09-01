@@ -3,9 +3,9 @@ version = 0
 enableLootDrops = true
 enableLootInVillages = false
 standardLootTableWeight = 0.1
-rareLootTableWeight = 0.4
-runicLootTableWeight = 0.7
-uniqueLootTableWeight = 0.3
+rareLootTableWeight = 0.3
+runicLootTableWeight = 0.6
+uniqueLootTableWeight = 0.2
 enableContainedRemnants = true
 disabledUniqueWeaponLoot = [  ]
 
