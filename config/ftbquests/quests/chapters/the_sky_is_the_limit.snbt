@@ -1,0 +1,566 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "rsquare"
+	filename: "the_sky_is_the_limit"
+	group: ""
+	hide_quest_until_deps_complete: true
+	icon: {
+		id: "aether:aether_portal_frame"
+	}
+	id: "2697A24EB30139A3"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"0D33FDA48C91C4FF"
+				"4D1840EE24BBF70B"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "7CAC652FAEFBC49B"
+			rewards: [
+				{
+					id: "5DDD03DA85E1F608"
+					type: "xp"
+					xp: 42
+				}
+				{
+					exclude_from_claim_all: true
+					id: "68A1E6592AA68E7A"
+					table_id: 9164883322194202215L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "6B1C2184AA6C2D21"
+				item: { components: { "ftbfiltersystem:filter": "or(item(aether_protect_your_moa:leather_moa_armor)item(aether_protect_your_moa:iron_moa_armor)item(aether_protect_your_moa:golden_moa_armor)item(aether_protect_your_moa:diamond_moa_armor)item(aether_protect_your_moa:zanite_moa_armor)item(deep_aether:skyjade_moa_armor)item(aether_protect_your_moa:gravitite_moa_armor))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"0D33FDA48C91C4FF"
+				"4D1840EE24BBF70B"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "77B8C065A0E72D4A"
+			rewards: [
+				{
+					id: "78EB51827491EBAB"
+					type: "xp"
+					xp: 42
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3162E9361D0A7BD1"
+					table_id: 9164883322194202215L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "7ADAA80DF23F55B0"
+				item: { count: 1, id: "deep_aether:sterling_aercloud" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"0D33FDA48C91C4FF"
+				"4D1840EE24BBF70B"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "3B0D356D34C6DC42"
+			rewards: [
+				{
+					id: "74AA6DB1F4D099FF"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					count: 10
+					id: "3A464623429E3395"
+					item: {
+						count: 1
+						id: "lootbundles:loot_bundle"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7AA0C8A8BF92C74D"
+					table_id: 7200705621912210064L
+					type: "random"
+				}
+			]
+			tasks: [{
+				entity: "aether:slider"
+				icon: {
+					components: {
+						"ftbquests:icon": "deep_aether:item/slider_eye"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "19872526D496D36C"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"0D33FDA48C91C4FF"
+				"4D1840EE24BBF70B"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "17A4AD99D3C9B48C"
+			rewards: [
+				{
+					id: "12B75C45695D11C5"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					count: 10
+					id: "1D053ED13346C60F"
+					item: {
+						count: 1
+						id: "lootbundles:loot_bundle"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4ECD650F693DE683"
+					table_id: 7200705621912210064L
+					type: "random"
+				}
+			]
+			tasks: [{
+				entity: "aether:sun_spirit"
+				icon: {
+					id: "deep_aether:sun_core"
+				}
+				id: "19C854145E04F67F"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"0D33FDA48C91C4FF"
+				"4D1840EE24BBF70B"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "1A0FBCDCE1854FFF"
+			rewards: [
+				{
+					id: "5A953A2713105ED6"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					count: 10
+					id: "37D6CE78ED41CB71"
+					item: {
+						count: 1
+						id: "lootbundles:loot_bundle"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3EE6C7412CF8876C"
+					table_id: 7200705621912210064L
+					type: "random"
+				}
+			]
+			tasks: [{
+				entity: "aether:valkyrie_queen"
+				icon: {
+					components: {
+						"ftbquests:icon": "deep_aether:textures/mob_effect/valkyrie_valor.png"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "350C8CBF04774BEF"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0D33FDA48C91C4FF"]
+			hide_until_deps_complete: true
+			id: "4D1840EE24BBF70B"
+			rewards: [
+				{
+					id: "136E9D621CB9416E"
+					item: {
+						components: {
+							"minecraft:potion_contents": {
+								potion: "minecraft:leaping"
+							}
+						}
+						count: 1
+						id: "minecraft:potion"
+					}
+					type: "item"
+				}
+				{
+					id: "7850D13EFA6D6258"
+					item: {
+						components: {
+							"minecraft:potion_contents": {
+								potion: "minecraft:slow_falling"
+							}
+						}
+						count: 1
+						id: "minecraft:potion"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: {
+					id: "aether:golden_parachute"
+				}
+				id: "42642615EB3FD424"
+				stat: "minecraft:play_time"
+				type: "stat"
+				value: 1
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"4D1840EE24BBF70B"
+				"0D33FDA48C91C4FF"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "2A15FF0DD7090EC5"
+			rewards: [
+				{
+					id: "1FA93F5E2453BA39"
+					type: "xp"
+					xp: 42
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1BF409FB29DD1713"
+					table_id: 9164883322194202215L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "7F6DEC863F287447"
+				item: { count: 1, id: "aether:book_of_lore" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"0D33FDA48C91C4FF"
+				"4D1840EE24BBF70B"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "5B42EE3FF8ABD9DB"
+			rewards: [
+				{
+					id: "336B72BB2F739589"
+					type: "xp"
+					xp: 42
+				}
+				{
+					exclude_from_claim_all: true
+					id: "773EBBA318654A78"
+					table_id: 9164883322194202215L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "713F03C5BECBB23C"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(aether:moa_eggs)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"0D33FDA48C91C4FF"
+				"4D1840EE24BBF70B"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "1F23F4E6E938AB46"
+			rewards: [
+				{
+					id: "642F037B5D7A8A1B"
+					type: "xp"
+					xp: 42
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6D392648D726579E"
+					table_id: 9164883322194202215L
+					type: "random"
+				}
+			]
+			tasks: [{
+				advancement: "aether:mount_phyg"
+				criterion: ""
+				id: "59C6C73362A02D3E"
+				type: "advancement"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"0D33FDA48C91C4FF"
+				"4D1840EE24BBF70B"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "02F28B78DEC1E457"
+			rewards: [
+				{
+					id: "4A78F02411671F4F"
+					type: "xp"
+					xp: 42
+				}
+				{
+					exclude_from_claim_all: true
+					id: "55BAC404F8B51A81"
+					table_id: 9164883322194202215L
+					type: "random"
+				}
+			]
+			tasks: [{
+				advancement: "aether:aether_sleep"
+				criterion: ""
+				icon: {
+					id: "aether:skyroot_bed"
+				}
+				id: "37079EBFC0F323F9"
+				type: "advancement"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"0D33FDA48C91C4FF"
+				"4D1840EE24BBF70B"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "4E1BEBD69B4FF2A2"
+			rewards: [
+				{
+					id: "29CA96D58021383C"
+					type: "xp"
+					xp: 42
+				}
+				{
+					exclude_from_claim_all: true
+					id: "43849F3B8D78677F"
+					table_id: 9164883322194202215L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "19FB1163CD6E9371"
+					item: { components: { "ftbfiltersystem:filter": "or(mod(aether)mod(deep_aether))or(item_tag(minecraft:head_armor))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "3B46C0B6BA9105EC"
+					item: { components: { "ftbfiltersystem:filter": "or(mod(aether)mod(deep_aether))or(item_tag(minecraft:chest_armor))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "5089CB882BB054D4"
+					item: { components: { "ftbfiltersystem:filter": "or(mod(aether)mod(deep_aether))or(item_tag(minecraft:leg_armor))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "7496AE2F0E868408"
+					item: { components: { "ftbfiltersystem:filter": "or(mod(aether)mod(deep_aether))or(item_tag(minecraft:foot_armor))not(item(aether:sentry_boots))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "5C9320C5A5630D63"
+					item: { components: { "ftbfiltersystem:filter": "or(mod(aether)mod(deep_aether))or(item_tag(aether:accessories_gloves))not(item(aether:leather_gloves))not(item(aether:chainmail_gloves))not(item(aether:iron_gloves))not(item(aether:golden_gloves))not(item(aether:diamond_gloves))not(item(aether:netherite_gloves))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"0D33FDA48C91C4FF"
+				"4D1840EE24BBF70B"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "07A256324ED080F5"
+			rewards: [
+				{
+					id: "0D5785B4C6F1F0CF"
+					type: "xp"
+					xp: 42
+				}
+				{
+					exclude_from_claim_all: true
+					id: "43156FC235584FE0"
+					table_id: 9164883322194202215L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "3E8D38AAA6B120A9"
+				item: { count: 1, id: "aether:freezer" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"0D33FDA48C91C4FF"
+				"4D1840EE24BBF70B"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "3971E183E220CE3A"
+			rewards: [
+				{
+					id: "6D004EA4ACAF2194"
+					type: "xp"
+					xp: 42
+				}
+				{
+					exclude_from_claim_all: true
+					id: "28CB207D50579F9F"
+					table_id: 9164883322194202215L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "02D004EEA48578E2"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(aether:accessories_capes)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"0D33FDA48C91C4FF"
+				"4D1840EE24BBF70B"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "2D7C85654EEE34E4"
+			rewards: [
+				{
+					id: "270AC7534118EC2A"
+					type: "xp"
+					xp: 42
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5B89F363035A71F9"
+					table_id: 9164883322194202215L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "141F21E09CF0EB1B"
+				item: { count: 1, id: "aether:incubator" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"0D33FDA48C91C4FF"
+				"4D1840EE24BBF70B"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "065792FA36C03616"
+			rewards: [
+				{
+					id: "1A16C1A318315A50"
+					type: "xp"
+					xp: 42
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2D6B44EA37BE6631"
+					table_id: 9164883322194202215L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "2DCA8AB480F6C445"
+				item: { count: 1, id: "aether:altar" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"0D33FDA48C91C4FF"
+				"4D1840EE24BBF70B"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "20C08FCB217E7985"
+			rewards: [
+				{
+					id: "6FF3B0AC8156A706"
+					type: "xp"
+					xp: 42
+				}
+				{
+					exclude_from_claim_all: true
+					id: "26D123E6790A4121"
+					table_id: 9164883322194202215L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "0FB31F74A45F30DC"
+				item: { count: 1, id: "aether:aechor_petal" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+	]
+}

@@ -1,11 +1,51 @@
 {
+	chapter.0448ADB2543C44A2.chapter_subtitle: ["In The End, it doesn't even matter"]
+	chapter.0448ADB2543C44A2.title: "End Times"
+	chapter.14B00B9F0A7D555A.chapter_subtitle: ["Su nioj, su nioj, su nioj, su nioj"]
+	chapter.14B00B9F0A7D555A.title: "Hell Awaits"
 	chapter.229F0E5FE4C8F6C9.chapter_subtitle: ["Reluctantly crouched at the starting line"]
 	chapter.229F0E5FE4C8F6C9.title: "Hi2U"
+	chapter.2697A24EB30139A3.chapter_subtitle: [
+		"Butterfly in the sky"
+		"I can go twice as high"
+	]
+	chapter.2697A24EB30139A3.title: "Sky High"
+	chapter.2B278810D8D37941.title: "HiddenObjectives"
+	chapter.3AD7B718D7E89FC4.chapter_subtitle: ["The middle ground between light and shadow"]
+	chapter.3AD7B718D7E89FC4.title: "The Twilight Zone"
+	chapter.4B2F792952D8C998.chapter_subtitle: ["The princess is in another game"]
+	chapter.4B2F792952D8C998.title: "Boss Rush"
+	chapter.5B489F75B47FCF62.chapter_subtitle: ["Look out, GregTech! :rolling_on_the_floor_laughing:"]
+	chapter.5B489F75B47FCF62.title: "Technically Speaking"
 	file.0000000000000001.title: "Modification Package"
+	quest.002D64F1A25466DA.quest_desc: ["For what? For WHAT?!"]
+	quest.002D64F1A25466DA.title: "Save The Date"
+	quest.004E8259745ABE9F.quest_desc: [
+		"Taken from the Genius.com entry for \"I'm the Map!\":"
+		""
+		"This is the most inspirational song ever in the storyline of Dora the Explorer. It clearly portrays the pain and agony the map goes through while traveling alongside Dora, with no way to forfeit from the heinous crimes she commits."
+	]
+	quest.004E8259745ABE9F.title: "I'm The Map!"
+	quest.00E628FA935BC31D.quest_desc: ["Cut off enough heads, no more shall take their place."]
+	quest.00E628FA935BC31D.title: "Hail Hydra"
+	quest.024FA7D87A5D9C66.quest_desc: ["She could use some wrinkle cream, but I bet you can make her shine again."]
+	quest.024FA7D87A5D9C66.title: "Ol' Debra"
+	quest.02C9A5DC32D921E3.quest_desc: ["The quest text is getting increasingly worse."]
+	quest.02C9A5DC32D921E3.title: "Tanks A Lot!"
+	quest.02D041E5D5A1D43B.quest_desc: ["&4Pat Minotaur&r would also be a fun choice."]
+	quest.02D041E5D5A1D43B.title: "Moonotaur"
+	quest.02F28B78DEC1E457.quest_desc: ["Just don't roll off your bed. It's a long way down."]
+	quest.02F28B78DEC1E457.title: "Sleep It Off"
+	quest.0426BD8E93E7E658.quest_desc: ["He can be great one day."]
+	quest.0426BD8E93E7E658.title: "Just A Little Guy"
 	quest.042AD5A05134784D.quest_desc: ["\"Follow the eye,\" they said. \"It'll be fine,\" they said."]
 	quest.042AD5A05134784D.title: "Finders Weepers"
 	quest.0583CA4F658FC553.quest_desc: ["Watch your step, and don't make eye contact."]
 	quest.0583CA4F658FC553.title: "Be All, End All"
+	quest.065792FA36C03616.quest_desc: ["Ngl it looks more like a funky furnace or public trash bin. But apparently it can transmute and repair stuff, so that seems cool, yeah?"]
+	quest.065792FA36C03616.title: "Altar Of Madness"
+	quest.07A256324ED080F5.quest_desc: ["Cooler than a polar bear's toenail."]
+	quest.07A256324ED080F5.title: "Freezer Burn"
 	quest.084A4D31D5C93BCE.quest_desc: [
 		"You may be right"
 		"It's all a waste of time"
@@ -15,14 +55,23 @@
 	quest.084A4D31D5C93BCE.title: "Cut To The Chase"
 	quest.0ACFE2928803559E.quest_desc: ["Explore some interesting cuisine from another dimension."]
 	quest.0ACFE2928803559E.title: "What Does Twilight Taste Like?"
+	quest.0C10E46B48D10C1E.quest_desc: ["She uses Vaaa-aaa-aaaaaa-seline!"]
+	quest.0CD73A6CF396B0FC.quest_desc: ["She does not want to stop, collaborate, or listen."]
+	quest.0CD73A6CF396B0FC.title: "Ice Ice Lady"
 	quest.0D33FDA48C91C4FF.quest_desc: ["You need to glow up."]
 	quest.0D33FDA48C91C4FF.title: "Rarefied Air"
+	quest.0DD97E3DE13FEB5F.quest_desc: ["Use this I guess if you don't want the wooden steampunk look."]
+	quest.0DD97E3DE13FEB5F.title: "Happy Little Storage"
+	quest.0E118C245F029A41.quest_desc: ["Who put these here?"]
+	quest.0E118C245F029A41.title: "Waaaay Out There"
 	quest.0EA6B5D4FC5D0237.quest_desc: ["One of the chalices of all time."]
 	quest.0EA6B5D4FC5D0237.title: "Such A Chalice"
 	quest.0EC6556CD9E5A2C3.quest_desc: ["Some swords are not simply swords. Some swords are not swords at all."]
 	quest.0EC6556CD9E5A2C3.title: "Slap Chop"
 	quest.0EE2D2ECE9AB6A35.quest_desc: ["You're gonna need a bigger boat."]
 	quest.0EE2D2ECE9AB6A35.title: "Chum Bucket"
+	quest.124F2B481FAE1EC8.quest_desc: ["Back to work, peon. Your 45-second restroom break is over."]
+	quest.124F2B481FAE1EC8.title: "Amazon Warehouse Simulator"
 	quest.143843F61ED6EC6A.quest_desc: ["I bet you've never seen ore do the Cha Cha Slide!"]
 	quest.143843F61ED6EC6A.title: "RNGesus Take The Wheel"
 	quest.169410EE85B988F5.quest_desc: [
@@ -32,36 +81,128 @@
 		"I want to be a fisherman\""
 	]
 	quest.169410EE85B988F5.title: "The Joy Of Fishing"
+	quest.170362C3A00E1809.quest_desc: ["Tired of putting stuff together? Well now you can take stuff apart, or even recraft stuff into better stuff!"]
+	quest.170362C3A00E1809.title: "Table Flip"
+	quest.17A4AD99D3C9B48C.quest_desc: ["Are you winning, sun?"]
+	quest.17A4AD99D3C9B48C.title: "Sunburn"
+	quest.19445A5BE16F649A.quest_desc: ["Why just view when you can craft, too?"]
+	quest.19445A5BE16F649A.title: "Crafting All At Once"
+	quest.1A0FBCDCE1854FFF.quest_desc: [
+		"&oShe's a killer queen"
+		"&oGunpowder, gelatine"
+		"&oDynamite with a laser beam"
+	]
+	quest.1A0FBCDCE1854FFF.title: "Battle Royale"
 	quest.1A41A6F331C2A96A.quest_desc: ["Never mastered the old tech mods, so let's try a new one."]
 	quest.1A41A6F331C2A96A.title: "Ori-ly?"
-	quest.1FB18534BF82AB93.quest_desc: ["No, silly. Not Reliquary."]
+	quest.1B531B0719C80ED0.quest_desc: ["Will also punch a variety of other things."]
+	quest.1B531B0719C80ED0.title: "Ore Puncher"
+	quest.1BEE45F54D79CC9B.quest_desc: ["Put those inventories to work!"]
+	quest.1BEE45F54D79CC9B.title: "Storage++"
+	quest.1C0A2778F357BF2F.quest_desc: ["Is still a wrench."]
+	quest.1C0A2778F357BF2F.title: "A Wrench By Any Other Name"
+	quest.1DFB3F5B27099648.quest_desc: ["&o\"You're moving into a land of both shadow and substance, of things and ideas.\"&r"]
+	quest.1DFB3F5B27099648.title: "The Gloaming Grove"
+	quest.1F23F4E6E938AB46.quest_desc: ["Used advancement name for quest title. Big brain moment."]
+	quest.1F23F4E6E938AB46.title: "When Pigs Fly"
+	quest.1F8AB6FB2098D5AF.quest_desc: ["Fun if you're Umvuthi, anyway. Maybe not so fun for you."]
+	quest.1F8AB6FB2098D5AF.title: "Fun In The Sun"
+	quest.1FB18534BF82AB93.quest_desc: ["No, silly. Not &oReliquary&r."]
 	quest.1FB18534BF82AB93.title: "Relic Query"
 	quest.200E9F4486E74664.quest_desc: ["The results of a freak accident involving a food dehydrator. Just add water and I'm sure it'll be fine!"]
 	quest.200E9F4486E74664.title: "Dry Your Tears"
-	quest.2752D69B0D54887D.quest_desc: ["What a clever quest title. Really dug deep on that one."]
-	quest.2752D69B0D54887D.title: "The Twilight Zone"
+	quest.20C08FCB217E7985.quest_desc: ["Is the food weird or the birds? Yes."]
+	quest.20C08FCB217E7985.title: "Weird Bird Food"
+	quest.2125CA0E7CB6B726.quest_desc: ["What is it guarding? Sorry, I'm too busy running away to find out."]
+	quest.2125CA0E7CB6B726.title: "Block Or Charge"
+	quest.217563EB13342818.quest_desc: [
+		"The future of wearable storage is here."
+		""
+		"Introducing the industry-disrupting, AI-driven, Backpack-as-a-Service cloud platform:"
+		""
+		"&eBackPackly&r™"
+	]
+	quest.217563EB13342818.title: "Backpack++"
+	quest.2424122DF7C181ED.quest_desc: ["I hope you like stairs."]
+	quest.2424122DF7C181ED.title: "Lich Please"
+	quest.247E2B5EF68F5D4B.quest_desc: ["Requires a deft hand, and is seemingly useless."]
+	quest.247E2B5EF68F5D4B.title: "U Jelly?"
+	quest.24FA236C67987399.quest_desc: ["But you need to pay for it."]
+	quest.24FA236C67987399.title: "Complimentary Wi-Fi"
+	quest.270F332BFE6B67F1.quest_desc: ["Its initial directive long forgotten, it nonetheless stands guard patiently. Eternally."]
+	quest.270F332BFE6B67F1.title: "The Time-Lost Knight"
+	quest.2752D69B0D54887D.quest_desc: [
+		"Just kidding - no sparkly vampires here! But, if you listen very closely, you can sometimes hear the faint sound of..."
+		"{@pagebreak}"
+		"&o&7Hoa-hoa-hoa-hoa-hoa&r&r&r"
+	]
+	quest.2752D69B0D54887D.title: "Where The Cullens Live"
+	quest.29CE55B509500A22.quest_desc: ["Enter for the forum of flame, and prepare for a fiery exchange."]
+	quest.29CE55B509500A22.title: "Flame War"
+	quest.2A15FF0DD7090EC5.quest_desc: ["Find something in The Aether you want to know more about? Stick it in this book."]
+	quest.2A15FF0DD7090EC5.title: "The More You Know"
+	quest.2A2C55B280C59E0A.quest_subtitle: "Yeah, you"
+	quest.2A2C55B280C59E0A.title: "Hey Pig"
 	quest.2BBA15B5BC9C6C80.quest_desc: ["Item management is the real name of the game."]
 	quest.2BBA15B5BC9C6C80.title: "Stuff To Stuff Your Stuff"
+	quest.2C8BFD88EE151A9E.quest_desc: ["To control the connected storage thingies, yeah!"]
+	quest.2C8BFD88EE151A9E.title: "Control Freak"
 	quest.2CA77A38F335F486.quest_desc: ["No offense, but maybe you should jump off a cliff."]
 	quest.2CA77A38F335F486.title: "Falling With Style"
+	quest.2CF45AB6515D782F.quest_desc: ["They light up a stage and wax a chump like a candle!"]
+	quest.2CF45AB6515D782F.title: "Flame On!"
 	quest.2D18D42409605EFB.quest_desc: ["You will spare no expense in your quest for the perfect plushies!"]
 	quest.2D18D42409605EFB.title: "Plush Deluxe"
+	quest.2D7C85654EEE34E4.quest_desc: ["Warm up all those Moa Eggs you STOLE."]
+	quest.2D7C85654EEE34E4.title: "Lightly Toasted"
+	quest.2EC2DFC6805C33DA.quest_desc: ["A powerful item for powerful weapons."]
+	quest.2EC2DFC6805C33DA.title: "RunicScape"
+	quest.2F7D5C12F67676D7.quest_desc: ["Still waiting for The End update like the rest of us."]
+	quest.2F7D5C12F67676D7.title: "Vanilla Killa"
+	quest.2FAE8E5CD1DE41B0.quest_desc: ["Chillin' like a villain."]
+	quest.2FAE8E5CD1DE41B0.title: "White Walker Wizard"
 	quest.303B3C4D4DFF0B0F.quest_desc: ["Who is Joe? Why are they in this cup? Why should I drink...Joe?!?!"]
 	quest.303B3C4D4DFF0B0F.title: "Cup Of Joe"
+	quest.30B1CAE04699F25C.quest_desc: ["Risen from the depths, this non-terrestrial intelligence does not seem friendly."]
+	quest.30B1CAE04699F25C.title: "The Abyss"
 	quest.30BB4F773740CC8C.quest_desc: ["You died. Or someone died. Here lies the remains."]
 	quest.30BB4F773740CC8C.title: "RIP In Peace"
+	quest.30DF3264515E92AB.quest_desc: ["Do not disturb their dark garden."]
+	quest.30DF3264515E92AB.title: "A Dark Guard"
+	quest.311C791EDAA66A41.title: "Anchors Aweigh"
 	quest.31B1CB4EF9465493.quest_desc: ["This will go perfectly fine, just like it always does."]
 	quest.31B1CB4EF9465493.title: "Nether Here Nor There"
+	quest.32D00B371CBC3C95.quest_desc: [
+		"&oLet me begin"
+		"&oI came to win"
+		"&oBattle me"
+		"&oThat's a sin"
+	]
+	quest.32D00B371CBC3C95.title: "Pack It Up, Pack It In"
+	quest.33536BDD78872F79.quest_desc: [
+		"&4&oHear the piercing cries of all"
+		"&4&oWho found that hell awaits"
+	]
+	quest.33536BDD78872F79.title: "St. Elmo's Fire"
+	quest.34961250E73C9624.quest_desc: ["You've discovered the lair of a powerful creature. These creatures are often referred to as Bosses, and provide unique challenges and rewards."]
+	quest.34961250E73C9624.title: "I'm In Danger"
 	quest.353B47F36F4DE9E3.quest_desc: ["Endermen are weird, and sometimes weirder."]
 	quest.353B47F36F4DE9E3.title: "Peculiar Pearls"
+	quest.3615A447277392B1.quest_desc: ["One of the wrenches of all time."]
+	quest.3615A447277392B1.title: "Tools Of The Trade"
 	quest.36B7E4BBDB818F7B.quest_desc: ["Didn't think you'd be deck-building in Minecraft, did ya?"]
 	quest.36B7E4BBDB818F7B.title: "Such A Card"
 	quest.36DF7785E2814072.quest_desc: ["Did you already murder a crab to make an extended reach potion? Dang, that's messed up."]
 	quest.36DF7785E2814072.title: "That's the Spear-it!"
 	quest.37D4BB6715D88630.quest_desc: ["TIL there is more than one Tiny Cactus in this modpack."]
 	quest.37D4BB6715D88630.title: "Puny Perrenial"
+	quest.3971E183E220CE3A.quest_desc: ["Not every cape wears a hero."]
+	quest.3971E183E220CE3A.title: "Caped Crusader"
+	quest.3B0D356D34C6DC42.quest_desc: ["Is it, like, a small sandwich?"]
 	quest.3B3E95175FC546DA.quest_desc: ["Do you even lift, bro?"]
 	quest.3B3E95175FC546DA.title: "Harder, Better, Faster, Stronger"
+	quest.3B4527C74CAC624F.title: "Fossil Fury"
+	quest.3D7670B3FBE39FA1.title: "Accursed Cold"
 	quest.3DB39FC1664B389C.quest_desc: [
 		"Have you ever been alone at night"
 		"Thought you heard footsteps behind"
@@ -75,35 +216,126 @@
 	quest.3DE1AE9465A8991E.title: "Fast Travel Unlocked"
 	quest.3EFF0239D9EC76F8.quest_desc: ["She can offer you great power."]
 	quest.3EFF0239D9EC76F8.title: "Tears Of The Breath"
+	quest.3F29EDA9F7884B40.quest_desc: [
+		"&oHello"
+		"&oIs there anybody in there?"
+		"&oJust nod if you can hear me"
+		"&oIs there anyone at home?"
+		"{@pagebreak}"
+		"&o&8Perhaps a remnant of something remains. If not, this is an awful lot of stairs to climb.&r&r"
+	]
+	quest.3F29EDA9F7884B40.title: "Anybody Home?"
+	quest.41129F173A031A5F.quest_desc: ["wut it do"]
+	quest.41129F173A031A5F.title: "Baby, I'm A Star"
 	quest.430D031BC3C41B09.quest_desc: ["If you're far from home and it's getting late, a sleeping bag is pretty great."]
 	quest.430D031BC3C41B09.title: "Sleep It Off"
+	quest.43386A7B12CD6C57.quest_desc: [
+		"&oThis thing inside of me"
+		"&oIt screams the loudest sound"
+		"&oSometimes I think I could"
+		"&oBurn&r"
+	]
+	quest.43386A7B12CD6C57.title: "Sick Burn"
 	quest.433F7525CDAA24B4.quest_desc: ["Because moisture is the essence of wetness."]
 	quest.433F7525CDAA24B4.title: "Let This Sink In"
 	quest.43EB8505A1B0F75F.quest_desc: ["I love some good ol' RNG, but it can stay the heck out of my enchanting process."]
-	quest.43EB8505A1B0F75F.title: "Enchanting EZ Mode"
+	quest.43EB8505A1B0F75F.title: "Enchanting Table DLC"
+	quest.451C4CE754376B65.quest_desc: ["Illagers dabbling in genetics? This won't end well."]
+	quest.451C4CE754376B65.title: "Eggstraordinary"
+	quest.456FDC437DBEEFF4.quest_desc: ["I don't have the &benergy&r to think of another quest description."]
+	quest.456FDC437DBEEFF4.title: "Electric Avenue"
+	quest.45B83CDCCFAF4A89.quest_desc: ["No, don't kill it. Jeez."]
+	quest.45B83CDCCFAF4A89.title: "The GOAT"
+	quest.46149A01B7CB4819.quest_desc: ["In case you need to get where you already are!"]
+	quest.46149A01B7CB4819.title: "Endception"
+	quest.4662B698C26D01E6.quest_desc: [
+		"&oCome and listen to a story about a man named Jed"
+		"&oA poor mountaineer, barely kept his family fed"
+		"&oThen one day he was shootin' at some food"
+		"&oAnd up through the ground come a bubblin' crude"
+		"{@pagebreak}"
+		"&o&7(Oil, that is.)&r"
+	]
+	quest.4662B698C26D01E6.title: "Black Gold"
+	quest.4754AE9B4002AAB7.title: "Boss Prereqs"
 	quest.47C61894BB6B4D59.quest_desc: ["Push the limits of what is possible. But beware - the limits push back."]
 	quest.47C61894BB6B4D59.title: "Aspiring To Apotheosis"
+	quest.48A2C4010EEA08FB.quest_desc: ["A disconcerting number of wiggly appendages."]
+	quest.48A2C4010EEA08FB.title: "Aghast"
 	quest.4933249A1EFF2D6A.quest_desc: ["Just needs a glow up."]
 	quest.4933249A1EFF2D6A.title: "Light 'Em Up"
+	quest.49F6B65589797978.quest_desc: ["Dance the (k)night away with this charming but deadly bunch."]
+	quest.49F6B65589797978.title: "Phantom Menace"
 	quest.4A512C22582BFD0C.quest_desc: ["Some say that in The End, it doesn't even matter."]
 	quest.4A512C22582BFD0C.title: "Null And Void"
+	quest.4B87417853F3ECD7.title: "Say What Now"
+	quest.4C271BEF2F8FD296.quest_desc: ["Carried by obscure illagers. You've probably never heard of them."]
+	quest.4C271BEF2F8FD296.title: "Totemic Deviations"
 	quest.4CB519C4780ACEB2.quest_desc: ["Houses, ships, prisons and more dot the landscape. You probably won't have any trouble finding one."]
 	quest.4CB519C4780ACEB2.title: "Buildings Abound"
 	quest.4CE9D152E847509E.quest_desc: ["Variety is the spice of life - literally. A diverse diet can increase your maximum health."]
 	quest.4D0DDE7B1F348576.quest_desc: ["Composition unconfirmed. Useful if it chooses to be."]
 	quest.4D0DDE7B1F348576.title: "Sapient Pearwood?"
+	quest.4D1840EE24BBF70B.quest_desc: ["Watch your step!"]
+	quest.4D1840EE24BBF70B.title: "Up You Go"
+	quest.4DFFA9192FA05385.quest_desc: ["The quest title is 1) hyperbolic and 2) a movie reference."]
+	quest.4DFFA9192FA05385.title: "A River Runs Through It"
+	quest.4E1BEBD69B4FF2A2.quest_desc: ["Get a full set of Aether armor. Mix and match if you like. Go wild."]
+	quest.4E1BEBD69B4FF2A2.title: "Aether Armor Amore"
+	quest.50242BD4C3950625.quest_desc: [
+		"No, you don't have to kill it. And it won't kill anyone. (Probably?)"
+		""
+		"It was just a dumb pun. Sorry."
+	]
+	quest.50242BD4C3950625.title: "Chute To Kill"
 	quest.50BC5FA056FA3052.quest_desc: ["If you talk like a pirate, he might just hand it over to you."]
 	quest.50BC5FA056FA3052.title: "Get Some Booty"
+	quest.512EA0E0276A5263.quest_desc: ["Store your experience in a safe deposit box. Safe from harm. Shareable with others. Subject to an annual fee. Terms and conditions apply."]
+	quest.512EA0E0276A5263.title: "Are You Experienced?"
 	quest.5172F9E4DB882045.quest_desc: ["There's a lot of stuff in this game, huh?"]
 	quest.5172F9E4DB882045.title: "Backpack! Backpack!"
+	quest.52B57C354842B6CE.quest_desc: ["Level up your enchanting game even further!"]
+	quest.52B57C354842B6CE.title: "Enchanting Table P2W"
 	quest.538E8246144F2405.quest_desc: ["I grew tired of waiting for something to emerge, so I broke it open to see what was inside."]
 	quest.538E8246144F2405.title: "Wilford Brimley Was Here"
 	quest.5580DEA9B1432A1B.quest_desc: ["Chop all the things? Yes, chef!"]
 	quest.5580DEA9B1432A1B.title: "Getting Into Knives"
+	quest.55FB6332DCC2AD77.quest_desc: ["Just dust off a hostile fossile to get this sweet trim. Should be no prob!"]
+	quest.55FB6332DCC2AD77.title: "Remains To Be Seen"
 	quest.5614D2BEEAA5D753.quest_desc: ["You don't have to take Spice of Life that seriously, but if you insist..."]
 	quest.5614D2BEEAA5D753.title: "Beyond Bourdain"
+	quest.57E386643D3CCE4F.quest_desc: ["My apologies. This is actually a drill."]
+	quest.57E386643D3CCE4F.title: "This Is Not A Drill"
+	quest.5836592AB2E34D41.quest_desc: ["And so did this thing."]
+	quest.5836592AB2E34D41.title: "Eye See What You Did There"
+	quest.590B72C44EF387E9.title: "Item Prereqs"
+	quest.5A24194EF6C4F35D.quest_desc: ["&oYou got the power!"]
+	quest.5A24194EF6C4F35D.title: "You Got The Touch!"
+	quest.5A4A8E760D3AFF76.quest_desc: [
+		"What did the five fingers say to the face?"
+		"{@pagebreak}"
+		"&6&lSLAP!&r"
+	]
+	quest.5A4A8E760D3AFF76.title: "Eye-Hand Coordination"
+	quest.5B42EE3FF8ABD9DB.quest_desc: [
+		"&oGonna scream, gonna fight"
+		"&oWe'll have an egg raid tonight"
+	]
+	quest.5B42EE3FF8ABD9DB.title: "Egg Raid On Moa-Jo"
+	quest.5CF4C309F7AA66E7.quest_desc: ["Oscar has been looking for you!"]
+	quest.5CF4C309F7AA66E7.title: "Slimey!"
+	quest.5D4F4ED9E8A56694.quest_desc: [
+		"&oAh, might as well jump"
+		"{@pagebreak}"
+		"&3&oJump!&r"
+	]
+	quest.5D4F4ED9E8A56694.title: "Hardcore Parkour"
+	quest.5D55699913B73259.quest_desc: ["Friend of Inventory Cable."]
+	quest.5D55699913B73259.title: "Missed Connections"
 	quest.5D8DBAA09D4873B6.quest_desc: ["What if you didn't have to &opretend&r to sit on stairs?"]
 	quest.5D8DBAA09D4873B6.title: "Simply Adorn...able"
+	quest.5E83533120B76446.quest_desc: ["I'm sure it'll be a &olovely&r time."]
+	quest.5E83533120B76446.title: "Tribulations \\& Trials"
 	quest.5EA7E4BC36B36777.quest_desc: ["Vanilla Minecraft has one single bow."]
 	quest.5EA7E4BC36B36777.title: "We Drop Bows On 'Em"
 	quest.60AFCB2CADEBF15D.quest_desc: ["Save room for dessert!"]
@@ -112,10 +344,32 @@
 	quest.6141E61DD2F8C545.title: "Lucky Duck"
 	quest.61F98472FAA3FC64.quest_desc: ["Welcome. To this place."]
 	quest.61F98472FAA3FC64.title: "Hello. Person."
+	quest.622F84712CC6C834.quest_desc: ["Another thing that does a thing."]
+	quest.622F84712CC6C834.title: "It's All Connected, Man"
+	quest.6238DCFA78DAA7C0.quest_desc: ["Always ready for the dentist."]
+	quest.6238DCFA78DAA7C0.title: "Abominable"
 	quest.6268DF8056618810.quest_desc: ["Try taking an indirect approach."]
 	quest.6268DF8056618810.title: "Seeking Creaking"
+	quest.62AB9094572649E0.quest_desc: ["Does what it says it does."]
+	quest.62AB9094572649E0.title: "Cable Is Pipe Is Tube"
+	quest.62C1E8A9EDC05079.quest_desc: [
+		"&o&0Where are you? And I'm so sorry"
+		"&o&0I cannot sleep, I cannot dream tonight"
+	]
+	quest.62C1E8A9EDC05079.title: "Emo Quartz"
+	quest.6339200FC1D66CC6.quest_desc: [
+		"&oIt's the end of the world as we know it"
+		"&oAnd I feel fine"
+	]
+	quest.6339200FC1D66CC6.title: "Beginning Of The End"
 	quest.63AE19E850CCAB20.quest_desc: ["Not to be confused with a loot &obundle&r, you silly goose!"]
 	quest.63AE19E850CCAB20.title: "Get That Bag"
+	quest.63D01F9CF7BD0434.quest_desc: ["Spiff it up a bit, eh?"]
+	quest.63D01F9CF7BD0434.title: "Stylin' Storage"
+	quest.661A5C3404AC3628.quest_desc: ["It's known as &lThe Harbinger&r. But the harbinger of what?"]
+	quest.661A5C3404AC3628.title: "Frightful Foreshadowing"
+	quest.66533DA3F517B1A5.quest_desc: ["Kelly LeBrock not included."]
+	quest.66533DA3F517B1A5.title: "Weird Science"
 	quest.66FB44FC2C7795AD.quest_desc: ["If you think night time is the right time, take a nap in your hammock."]
 	quest.66FB44FC2C7795AD.title: "Daydreaming"
 	quest.673C6F7D31ACEFBB.quest_desc: [
@@ -134,71 +388,188 @@
 	quest.68C1B25DE8DF8405.title: "Bananarama"
 	quest.69E9EEAEB18AEAB8.quest_desc: ["Enjoy the chill vibes of the Ribbits."]
 	quest.69E9EEAEB18AEAB8.title: "Feelin' Froggy?"
+	quest.6AB438017FAF171D.quest_desc: [
+		"&oAin't no party like a Wither party 'cause a Wither party"
+		""
+		"H&lURTS OMG PLZ STOP WHY&r"
+	]
+	quest.6AB438017FAF171D.title: "Withering Heights"
 	quest.6ACC6FECCDD1B4D4.quest_desc: [
 		"It's ruff out there."
 		""
 		"&o&8I'll see myself out.&r&r"
 	]
 	quest.6ACC6FECCDD1B4D4.title: "Canine Kevlar"
-	quest.6B31CECC661FB07F.quest_desc: ["Steve is a distant cousing of Joe according to the rumors."]
+	quest.6AD0285F6ABD1BD3.quest_desc: ["Try your hand at extradimensional dentistry and fetch a fang from an End...Enderman?"]
+	quest.6AD0285F6ABD1BD3.title: "Ender Extraction"
+	quest.6B31CECC661FB07F.quest_desc: ["According to the rumors, Steve is a distant cousing of Joe."]
 	quest.6B31CECC661FB07F.title: "Trader Steve's"
-	quest.6B434013DD66804F.quest_desc: ["Quest creation is fun, but also time-consuming. The current quests introduce various features in this modpack, without getting too in-depth. More quests will likely be added in the future."]
-	quest.6B434013DD66804F.title: "Quest Ions \\& Ant Sirs"
 	quest.6C552A4F641ACAE6.quest_desc: ["Why so serious? Cuteness isn't a crime!"]
 	quest.6C552A4F641ACAE6.title: "Snuggle Buddies"
-	quest.6EDECD8F395E92A9.quest_desc: ["Tom is here to help you connect and view all your storage."]
+	quest.6CADC9DD1EE81875.quest_desc: ["A literal manifestation of &dflower power&r."]
+	quest.6CADC9DD1EE81875.title: "Feral Flora"
+	quest.6EDECD8F395E92A9.quest_desc: ["Tom is here to help you synergize your storage."]
 	quest.6EDECD8F395E92A9.title: "Everything All At Once"
+	quest.6F3A16725FAA9F4B.quest_desc: [
+		"Did you know?"
+		""
+		"Jonathan Davis of Korn was heavily inspired by the vocal stylings of Shulkers."
+		""
+		"Wow!"
+		"{@pagebreak}"
+		"&7&oThe preceding statement has not been confirmed and may be completely false.&r&r"
+	]
+	quest.6F3A16725FAA9F4B.title: "Shulker Civilization"
 	quest.6F59255CCFF62CA6.quest_desc: ["They will show you the meaning of pain."]
 	quest.6F59255CCFF62CA6.title: "The Eyes Have It"
+	quest.718E6A7A8517C003.quest_desc: ["Don't forget the new cover sheets!"]
+	quest.718E6A7A8517C003.title: "TPS Reports"
 	quest.71B680FEA9FB0215.quest_desc: ["Additional info will be provided."]
 	quest.71B680FEA9FB0215.title: "Craft Actually"
+	quest.7312573D29D5573A.quest_desc: [
+		"&2&oA snake, a snake"
+		"&2&oSnake, a snake"
+		"&2&oOh, it's a snake&r"
+	]
+	quest.7312573D29D5573A.title: "Really Big Snake"
+	quest.732F135CC38EA49F.quest_desc: [
+		"Take those boring old vanilla resources and turn them into:"
+		""
+		":rainbow:&o&6mAgIc CrYsTaLs&r&r:rainbow:"
+	]
+	quest.732F135CC38EA49F.title: "The Crystal Method"
+	quest.73FDB73F6CB30FE3.quest_desc: ["It won't hold up your pants, but it will move your stuff from A to B."]
 	quest.73FDB73F6CB30FE3.title: "Satisfying Factory"
+	quest.760FF4C6656D8B0A.quest_desc: ["Last seen at a Ghostbusters estate sale."]
+	quest.760FF4C6656D8B0A.title: "Has Science Gone Too Far?!"
+	quest.7693A8EAF4D7C062.quest_desc: ["Maybe he skipped leg day, but I wouldn't say that to his face."]
+	quest.7693A8EAF4D7C062.title: "Hell's Bouncer"
+	quest.76DEE854C55CE848.title: "Additional Seeds"
 	quest.77B8C065A0E72D4A.quest_desc: ["Elevate your Aether experience."]
 	quest.77B8C065A0E72D4A.title: "We Need To Go Deeper"
 	quest.795F3BACF11B0B5F.quest_desc: ["I hope you like copper."]
 	quest.795F3BACF11B0B5F.title: "Trials \\& Tribulations"
 	quest.7A07A3AA8BF66E9E.quest_desc: ["Please won't you be their neighbor?"]
 	quest.7A07A3AA8BF66E9E.title: "Hello Neighbor"
+	quest.7A09A97D18CB5CC3.quest_desc: ["I hope you know I pack a chainsaw."]
+	quest.7A09A97D18CB5CC3.title: "The Saw Is Family"
+	quest.7ABE879ED7E80406.quest_desc: ["Maybe just let them sleep."]
+	quest.7ABE879ED7E80406.title: "Winterfresh Breath"
+	quest.7BA79822A0DB750B.quest_desc: ["Shoots chests at enemies. Jk it doesn't do that at all, but that would be funny."]
+	quest.7BA79822A0DB750B.title: "A Chest Wand I Guess?"
 	quest.7C2C70F540602C38.quest_desc: ["Stack the deck in your favor with this relocation rock."]
 	quest.7C2C70F540602C38.title: "Hearthstone"
 	quest.7C2DAFD095C8BFFC.quest_desc: ["Gimme dabajabaza!"]
 	quest.7C2DAFD095C8BFFC.title: "Gimme Fue Gimme Fai"
 	quest.7CAC652FAEFBC49B.quest_desc: ["She cried Moa, Moa, Moa."]
 	quest.7CAC652FAEFBC49B.title: "With A Rebel Yell"
+	quest.7CCFAA0EDB099B9D.quest_desc: ["Oops! All hallways."]
+	quest.7CCFAA0EDB099B9D.title: "Crimson Halls"
 	quest.7CDC0C7675D33755.quest_desc: [
 		"\"Where does the pollen lead?\""
 		""
 		"To the store for an antihistamine."
 	]
 	quest.7CDC0C7675D33755.title: "Allergic Reaction"
+	quest.7CE0A8D1B6E15FF4.quest_desc: ["A faceless rectangle that wants to murder you. Nice."]
+	quest.7CE0A8D1B6E15FF4.title: "Haunted Pillar"
+	quest.7E034F597D716DD9.quest_desc: ["One tool to rule them all."]
+	quest.7E034F597D716DD9.title: "We Are All One"
+	quest.7F49F4E20CA331EA.quest_desc: ["It's a known fact that the more wiggly a conveyer belt is, the more &mefficient&r fun it is."]
+	quest.7F49F4E20CA331EA.title: "Curvy Conveyance"
+	reward.0D763CC900E23A4F.title: "..."
+	reward_table.63EE0B9CB63C4A90.title: "Boss Loot Bag Rewards"
+	reward_table.7F3034D2EB498E67.title: "Loot Bundle Rewards"
 	task.0164C5C7E9890AE5.title: "Get a Paraglider."
+	task.01F7C8E047135FEE.title: "Just show up."
+	task.02A5D34CE7A2B626.title: "Slay the Snow Queen."
+	task.02D004EEA48578E2.title: "Get an Aether cape."
+	task.038E7EBF05B0E00D.title: "Crystal"
+	task.05DC10D36279AA30.title: "Welcome to The End of all things."
+	task.06462D413C0D0FD1.title: "Ascend into The Aether."
+	task.06646C9CA1BCB4E4.title: "Hell-o/"
+	task.06B158E90FC64B21.title: "Backpack Upgrade"
 	task.081B503CB6C14B20.title: "Get a loot bag."
+	task.082A7E9CEF1C50A4.title: "Destroy The Harbinger."
 	task.08EE94B39EEBBE45.title: "Cast your line at a curious fishing spot."
+	task.0C76ED6D39F7AFE5.title: "Ice the Alpha Yeti."
+	task.108C1DDC71FE4DEB.title: "Finish off the Ferrous Wroughtnaut."
+	task.1201D92012A7D41B.title: "Drill"
+	task.13A23AFBF63294F7.title: "Unalive the Ur-Ghast."
+	task.1493950D08EAE014.title: "Find a Bastion."
 	task.1679D49AB8554C5A.title: "Observe an anomaly."
+	task.17046043530F9030.title: "Vanquish the Void Blossom."
+	task.18707A9DFCB9AEFB.title: "Retire the Ancient Remnant."
+	task.190002F8289EE587.title: "Complete Tongbi's challenge."
+	task.194AF94E52C164DD.title: "Discover an End City."
+	task.19872526D496D36C.title: "Still the Slider."
+	task.19FB1163CD6E9371.title: "Obtain an Aether helm."
+	task.1BFC62468CB5F237.title: "Rid the world of the Wither."
 	task.1D2DDB6DD88DB5ED.title: "Pay condolences."
+	task.1D73B1D1C18FA962.title: "Obtain some interesting seeds."
+	task.1DD54FA256F94B51.title: "Eradicate Hydra."
+	task.1E6CF3B77B83ACA0.title: "Diamond Chest"
+	task.23EBC929826B96A5.title: "Obtain an Enderman Tooth."
 	task.2A82F31690D52D9D.title: "Discover a Relic."
+	task.2C2E6499CE93B1F9.title: "Win against the Warden."
+	task.2C98EE2D024363DD.title: "Eliminate Chesed."
 	task.2D126D0D0BE5DD31.title: "Acquire an extraordinary Ender Pearl."
+	task.2E8592A10577A498.title: "Go as far as you like..."
 	task.2EA448E5E30F93A8.title: "Eat a hearty meal."
+	task.2FF3C89840CCB780.title: "Find a Stronghold in The End. Wait, what?"
 	task.316B758249FFE7E7.title: "Obtain some Sophisticated Storage."
 	task.31F3500BEEF2B7E8.title: "Get a Night Light."
+	task.350C8CBF04774BEF.title: "Dethrone the Valkyrie Queen."
 	task.3552699DEE9DC48E.title: "Create a cataclysmic Eye."
+	task.37079EBFC0F323F9.title: "Sleep in The Aether."
+	task.37FD3C863B31DF33.title: "Find an Ender Waystone."
 	task.3B093EA1D0224A64.title: "Discover some Randomium Ore."
+	task.3B46C0B6BA9105EC.title: "Obtain an Aether chestplate."
+	task.3CF3B9C91824FED4.title: "Put the Night Lich to bed."
+	task.3E141C0B1BA58272.title: "Eye an Eyebulb."
 	task.3F7D1BAFEC89F66C.title: "Find a Waystone."
 	task.405FA628F5E21F44.title: "Make a friend."
 	task.4187DB4253B64E77.title: "Acquire a Sleeping Bag."
+	task.424C60946ABB4AFE.title: "Visit The Twilight Forest."
+	task.42642615EB3FD424.title: "Ayyyyy...ther."
+	task.43EC264BEA88463F.title: "She Don't Use Jelly"
+	task.462A8341FB7C3ECC.title: "Send The Leviathan back to the deeps."
 	task.46F59E1BD5888B75.title: "Find an AdoraBuild structure."
+	task.48A33C20A1BDA596.title: "Storage Upgrade"
+	task.498D08458FA433FF.title: "Obliterate the Twilight Lich."
+	task.4A7BCFD5CC24D61D.title: "Enter The Nether."
+	task.4B4F926BFFD6B24B.title: "Neutralize the Naga."
 	task.4B7390DEDE812FE9.title: "Get some grody grub."
 	task.4BB9ACA974A14E82.title: "Obtain an unusual bow."
+	task.4C6058F686DA6A75.title: "Be the Scylla killa."
+	task.4E00A40EFB476EA5.title: "Visit a long-forgotten castle."
 	task.4EB62818CC92A2B6.title: "Visit a Goddess Statue."
+	task.5089CB882BB054D4.title: "Obtain Aether leggings."
+	task.56FD1D26B192DD78.title: "End Umvuthi."
 	task.58F9D58C53B57855.title: "Please acknowledge I am lazy."
+	task.59B867F67DBE4FFD.title: "Conveyer Items"
+	task.59C6C73362A02D3E.title: "Ride a flying Phyg."
+	task.5C9320C5A5630D63.title: "Obtain Aether gloves."
+	task.5CB5D19B1B1AD6F9.title: "4x soul block"
+	task.5EC89FF752F87035.title: "Bring down Maledictus."
 	task.61888344770D9F1E.title: "Defeat a Mutant Monster."
 	task.63C18EF47897192D.title: "Find a Silk Cocoon."
 	task.65DE789A6AC2EFBB.title: "I'm The Map!"
+	task.6A1C617EB3EBC8C7.title: "AIOT"
 	task.6B1C2184AA6C2D21.title: "Protect your Moa."
+	task.6B4AABC0D2ACA9D5.title: "Reach The End."
+	task.6E3E05F114DE9111.title: "Find a Boss's lair."
 	task.7037BAA36545CCC6.title: "Make a Sleeping Bag."
+	task.70A21B0F49E4C3EA.title: "Enter a Nether Fortress."
+	task.713F03C5BECBB23C.title: "Obtain a Moa egg."
 	task.71B1C82445E67AAD.title: "Get a hammock."
+	task.7369C4B5BACF6B4D.title: "Delete the Minoshroom."
 	task.739C73D5804B1019.title: "Find a Ribbits Village."
+	task.7488BD365290972D.title: "Fell the frigid Frostmaw."
+	task.7496AE2F0E868408.title: "Obtain Aether boots."
 	task.76D92C127E86F741.title: "Grab a knife."
 	task.774B3A217125ADA0.title: "Find a unique melee weapon."
 	task.777C09A7A64CE19D.title: "Build a Sink, you filthy animal."
+	task.78321881961C68F0.title: "Item Pipe"
+	task.7CEA676E7446368A.title: "Kill the Knight Phantom(s)."
 }

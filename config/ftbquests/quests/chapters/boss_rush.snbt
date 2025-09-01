@@ -1,0 +1,700 @@
+{
+	default_hide_dependency_lines: true
+	default_quest_shape: ""
+	filename: "boss_rush"
+	group: ""
+	hide_quest_until_deps_complete: true
+	icon: {
+		id: "apotheosis:boss_summoner"
+	}
+	id: "4B2F792952D8C998"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"6524F94B86B237A7"
+				"34961250E73C9624"
+			]
+			hide_dependency_lines: false
+			hide_until_deps_complete: true
+			icon: {
+				id: "fdbosses:chesed_trophy"
+			}
+			id: "4B87417853F3ECD7"
+			rewards: [
+				{
+					id: "1072C7CE44ECE604"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					count: 10
+					id: "488BF5FD72ECB6C0"
+					item: {
+						count: 1
+						id: "lootbundles:loot_bundle"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7A1835AC76B73ED4"
+					table_id: 7200705621912210064L
+					type: "random"
+				}
+			]
+			tasks: [{
+				entity: "fdbosses:chesed"
+				icon: {
+					id: "fdbosses:chesed_trophy"
+				}
+				id: "2C98EE2D024363DD"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"5024793C016DAFBA"
+				"20C5317974ADA959"
+				"5447F999784B2031"
+				"2C62D4B5C0D061BE"
+				"6524F94B86B237A7"
+				"51B246B01D7DC191"
+				"137D458B4E03CC3D"
+				"6C8E0102DDED50D2"
+				"58EAE21F10D951ED"
+				"1C3D08865C945EFA"
+				"3900020C2461A2E2"
+				"4ECA3B6571EE6B0A"
+				"0B5C5FE3B012DCBF"
+				"7D944B0DB081AB70"
+				"431E2E0C2D51A0ED"
+				"48CEE382820B7C57"
+				"1D9A36653DB60709"
+				"72FC395A4CD4A048"
+			]
+			dependency_requirement: "one_completed"
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "34961250E73C9624"
+			rewards: [
+				{
+					id: "29CBDD4FEBEA0C4B"
+					item: {
+						components: {
+							"minecraft:potion_contents": {
+								potion: "minecraft:strength"
+							}
+						}
+						count: 1
+						id: "minecraft:potion"
+					}
+					type: "item"
+				}
+				{
+					id: "09B9863D55C3919C"
+					item: {
+						components: {
+							"minecraft:potion_contents": {
+								potion: "apothic_attributes:resistance"
+							}
+						}
+						count: 1
+						id: "minecraft:potion"
+					}
+					type: "item"
+				}
+				{
+					id: "0278ECD4065711A4"
+					item: {
+						components: {
+							"minecraft:potion_contents": {
+								potion: "minecraft:healing"
+							}
+						}
+						count: 1
+						id: "minecraft:potion"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: {
+					components: {
+						"ftbquests:icon": "modificationpackage:textures/gui/rw_iid.png"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "6E3E05F114DE9111"
+				stat: "minecraft:play_time"
+				type: "stat"
+				value: 1
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"51B246B01D7DC191"
+				"34961250E73C9624"
+			]
+			hide_dependency_lines: false
+			hide_until_deps_complete: true
+			id: "311C791EDAA66A41"
+			rewards: [
+				{
+					id: "3B98715CF515D2A6"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					count: 10
+					id: "17687DAC2E8BF1FB"
+					item: {
+						count: 1
+						id: "lootbundles:loot_bundle"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "17ABCAAB605CD80A"
+					table_id: 7200705621912210064L
+					type: "random"
+				}
+			]
+			tasks: [{
+				entity: "cataclysm:scylla"
+				icon: {
+					id: "cataclysm:curved_azure_seastone_scylla_8"
+				}
+				id: "4C6058F686DA6A75"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"1D9A36653DB60709"
+				"34961250E73C9624"
+			]
+			hide_dependency_lines: false
+			hide_until_deps_complete: true
+			id: "270F332BFE6B67F1"
+			rewards: [
+				{
+					id: "4E2A5099359CA820"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					count: 10
+					id: "4C023C6E6CEF478B"
+					item: {
+						count: 1
+						id: "lootbundles:loot_bundle"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5CB26D8A7DE9774B"
+					table_id: 7200705621912210064L
+					type: "random"
+				}
+			]
+			tasks: [{
+				entity: "mowziesmobs:ferrous_wroughtnaut"
+				icon: {
+					components: {
+						"ftbquests:icon": "mowziesmobs:item/wrought_helmet_icon"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "108C1DDC71FE4DEB"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"48CEE382820B7C57"
+				"34961250E73C9624"
+			]
+			hide_dependency_lines: false
+			hide_until_deps_complete: true
+			id: "1F8AB6FB2098D5AF"
+			rewards: [
+				{
+					id: "112876D9041DFCD1"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					count: 10
+					id: "74DC6DA91438157E"
+					item: {
+						count: 1
+						id: "lootbundles:loot_bundle"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "13AF0CC959E415B6"
+					table_id: 7200705621912210064L
+					type: "random"
+				}
+			]
+			tasks: [{
+				entity: "mowziesmobs:umvuthi"
+				icon: {
+					id: "mowziesmobs:sol_visage"
+				}
+				id: "56FD1D26B192DD78"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"7D944B0DB081AB70"
+				"34961250E73C9624"
+			]
+			hide_dependency_lines: false
+			hide_until_deps_complete: true
+			id: "7ABE879ED7E80406"
+			rewards: [
+				{
+					id: "6F7EAC779844017E"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					count: 10
+					id: "7236312124084556"
+					item: {
+						count: 1
+						id: "lootbundles:loot_bundle"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "03ED22F531880E67"
+					table_id: 7200705621912210064L
+					type: "random"
+				}
+			]
+			tasks: [{
+				entity: "mowziesmobs:frostmaw"
+				icon: {
+					id: "mowziesmobs:ice_crystal"
+				}
+				id: "7488BD365290972D"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"431E2E0C2D51A0ED"
+				"34961250E73C9624"
+			]
+			hide_dependency_lines: false
+			hide_until_deps_complete: true
+			id: "5D4F4ED9E8A56694"
+			rewards: [
+				{
+					id: "061881DF06B0F2C9"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					count: 10
+					id: "6750517E01BA1F42"
+					item: {
+						count: 1
+						id: "lootbundles:loot_bundle"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5CA0A9FA9655EA13"
+					table_id: 7200705621912210064L
+					type: "random"
+				}
+			]
+			tasks: [{
+				advancement: "mowziesmobs:sculptor_challenge"
+				criterion: ""
+				id: "190002F8289EE587"
+				type: "advancement"
+			}]
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"137D458B4E03CC3D"
+				"34961250E73C9624"
+			]
+			hide_dependency_lines: false
+			hide_until_deps_complete: true
+			id: "661A5C3404AC3628"
+			rewards: [
+				{
+					id: "0C5BC2DEAAD3C6CC"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					count: 10
+					id: "025E6EE5C72DAECD"
+					item: {
+						count: 1
+						id: "lootbundles:loot_bundle"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1FF37488005A4D0D"
+					table_id: 7200705621912210064L
+					type: "random"
+				}
+			]
+			tasks: [{
+				entity: "cataclysm:the_harbinger"
+				icon: {
+					components: {
+						"ftbquests:icon": "cataclysm:block/witherite_block"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "082A7E9CEF1C50A4"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"0B5C5FE3B012DCBF"
+				"34961250E73C9624"
+			]
+			hide_dependency_lines: false
+			hide_until_deps_complete: true
+			id: "30B1CAE04699F25C"
+			rewards: [
+				{
+					id: "6BF176C639A9BE35"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					count: 10
+					id: "19280B230A8907E4"
+					item: {
+						count: 1
+						id: "lootbundles:loot_bundle"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3F4CC961A7079324"
+					table_id: 7200705621912210064L
+					type: "random"
+				}
+			]
+			tasks: [{
+				entity: "cataclysm:the_leviathan"
+				icon: {
+					id: "cataclysm:altar_of_abyss"
+				}
+				id: "462A8341FB7C3ECC"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"58EAE21F10D951ED"
+				"34961250E73C9624"
+			]
+			hide_dependency_lines: false
+			hide_until_deps_complete: true
+			id: "3B4527C74CAC624F"
+			rewards: [
+				{
+					id: "59E4226B2CD89426"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					count: 10
+					id: "3E0D811027425682"
+					item: {
+						count: 1
+						id: "lootbundles:loot_bundle"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1AD4CD1CE966F7BD"
+					table_id: 7200705621912210064L
+					type: "random"
+				}
+			]
+			tasks: [{
+				entity: "cataclysm:ancient_remnant"
+				icon: {
+					id: "cataclysm:remnant_skull"
+				}
+				id: "18707A9DFCB9AEFB"
+				type: "kill"
+				value: 1L
+			}]
+			x: -0.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"19E9FACFF97E1FCD"
+				"34961250E73C9624"
+			]
+			hide_dependency_lines: false
+			hide_until_deps_complete: true
+			id: "30DF3264515E92AB"
+			rewards: [
+				{
+					id: "20D67E7FCE42BFDD"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					count: 10
+					id: "04B49722A2C19697"
+					item: {
+						count: 1
+						id: "lootbundles:loot_bundle"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3E72A75B24358653"
+					table_id: 7200705621912210064L
+					type: "random"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:warden"
+				icon: {
+					id: "minecraft:sculk_shrieker"
+				}
+				id: "2C2E6499CE93B1F9"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"6ED10D56C0A4787B"
+				"5CB5D19B1B1AD6F9"
+				"34961250E73C9624"
+			]
+			hide_dependency_lines: false
+			hide_until_deps_complete: true
+			id: "6AB438017FAF171D"
+			rewards: [
+				{
+					id: "7E34B2818FE79719"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					count: 10
+					id: "3624339F478275FB"
+					item: {
+						count: 1
+						id: "lootbundles:loot_bundle"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "174A2E94EF22A5FE"
+					table_id: 7200705621912210064L
+					type: "random"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:wither"
+				icon: {
+					components: {
+						"ftbquests:icon": "minecraft:textures/painting/wither.png"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "1BFC62468CB5F237"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"1C3D08865C945EFA"
+				"34961250E73C9624"
+			]
+			hide_dependency_lines: false
+			hide_until_deps_complete: true
+			id: "3D7670B3FBE39FA1"
+			rewards: [
+				{
+					id: "0E633EF81F0196FB"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					count: 10
+					id: "64A7FDBCC6E2AF6E"
+					item: {
+						count: 1
+						id: "lootbundles:loot_bundle"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5EE1DF21FB4F8197"
+					table_id: 7200705621912210064L
+					type: "random"
+				}
+			]
+			tasks: [{
+				entity: "cataclysm:maledictus"
+				icon: {
+					id: "cataclysm:cursed_tombstone"
+				}
+				id: "5EC89FF752F87035"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"2C62D4B5C0D061BE"
+				"34961250E73C9624"
+			]
+			hide_dependency_lines: false
+			hide_until_deps_complete: true
+			id: "6CADC9DD1EE81875"
+			rewards: [
+				{
+					id: "69CDD265A2DA93A1"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					count: 10
+					id: "07039DE80F6A290C"
+					item: {
+						count: 1
+						id: "lootbundles:loot_bundle"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6455BC9391DC37C2"
+					table_id: 7200705621912210064L
+					type: "random"
+				}
+			]
+			tasks: [{
+				entity: "bosses_of_mass_destruction:void_blossom"
+				icon: {
+					components: {
+						"ftbquests:icon": "bosses_of_mass_destruction:item/void_thorn"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "17046043530F9030"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"20C5317974ADA959"
+				"34961250E73C9624"
+			]
+			hide_dependency_lines: false
+			hide_until_deps_complete: true
+			id: "2FAE8E5CD1DE41B0"
+			rewards: [
+				{
+					id: "13AF46983734B2A2"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					count: 10
+					id: "7725AC3422F38E62"
+					item: {
+						count: 1
+						id: "lootbundles:loot_bundle"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "77E61773D3A2155A"
+					table_id: 7200705621912210064L
+					type: "random"
+				}
+			]
+			tasks: [{
+				entity: "bosses_of_mass_destruction:lich"
+				icon: {
+					components: {
+						"ftbquests:icon": "bosses_of_mass_destruction:item/ancient_anima"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "3CF3B9C91824FED4"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+	]
+}

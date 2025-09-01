@@ -1,0 +1,42 @@
+{
+	id: "7F3034D2EB498E67"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{
+			id: "6A69BF4DD9C45DCF"
+			item: {
+				count: 1
+				id: "lootbundles:loot_bundle"
+			}
+			weight: 20.0f
+		}
+		{
+			count: 3
+			id: "0FD0501F8EA9F650"
+			item: {
+				count: 1
+				id: "lootbundles:fragment"
+			}
+			weight: 40.0f
+		}
+		{
+			count: 6
+			id: "27565D7D4748C1E8"
+			item: {
+				count: 1
+				id: "lootbundles:fragment"
+			}
+			weight: 30.0f
+		}
+		{
+			count: 2
+			id: "578A30DC742CCE08"
+			item: {
+				count: 1
+				id: "lootbundles:loot_bundle"
+			}
+			weight: 10.0f
+		}
+	]
+}

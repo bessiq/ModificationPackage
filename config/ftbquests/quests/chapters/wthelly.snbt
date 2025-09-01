@@ -1,0 +1,383 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "pentagon"
+	filename: "wthelly"
+	group: ""
+	hide_quest_until_deps_complete: true
+	icon: {
+		components: {
+			"ftbquests:icon": "minecraft:block/nether_portal"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "14B00B9F0A7D555A"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"31B1CB4EF9465493"
+				"33536BDD78872F79"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "2A2C55B280C59E0A"
+			rewards: [
+				{
+					id: "1E65CC96FA5E289C"
+					type: "xp"
+					xp: 42
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7AD77CD38E3F0F5D"
+					table_id: 9164883322194202215L
+					type: "random"
+				}
+			]
+			tasks: [{
+				icon: {
+					id: "minecraft:piglin_head"
+				}
+				id: "1493950D08EAE014"
+				structure: "minecraft:bastion_remnant"
+				type: "structure"
+			}]
+			x: 0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"4ECA3B6571EE6B0A"
+				"34961250E73C9624"
+				"31B1CB4EF9465493"
+				"33536BDD78872F79"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "7693A8EAF4D7C062"
+			rewards: [
+				{
+					id: "671859CC0DA11338"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					count: 10
+					id: "1DB1445272EA14F5"
+					item: {
+						count: 1
+						id: "lootbundles:loot_bundle"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3AE4DDC5D0492C20"
+					table_id: 7200705621912210064L
+					type: "random"
+				}
+			]
+			tasks: [{
+				entity: "cataclysm:netherite_monstrosity"
+				icon: {
+					components: {
+						"ftbquests:icon": "cataclysm:textures/mob_effect/monstrous.png"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "3D9D8D07F63A67EA"
+				type: "kill"
+				value: 1L
+			}]
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"6C8E0102DDED50D2"
+				"34961250E73C9624"
+				"31B1CB4EF9465493"
+				"33536BDD78872F79"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "29CE55B509500A22"
+			rewards: [
+				{
+					id: "5C4CC929A327E6F5"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					count: 10
+					id: "52D0D68D456A45C0"
+					item: {
+						count: 1
+						id: "lootbundles:loot_bundle"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "68E7550E94C1203E"
+					table_id: 7200705621912210064L
+					type: "random"
+				}
+			]
+			tasks: [{
+				entity: "cataclysm:ignis"
+				icon: {
+					id: "cataclysm:altar_of_fire"
+				}
+				id: "1B6073D7F6F560F8"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["31B1CB4EF9465493"]
+			hide_until_deps_complete: true
+			id: "33536BDD78872F79"
+			rewards: [{
+				count: 2
+				id: "1518090F093FA130"
+				item: {
+					components: {
+						"minecraft:potion_contents": {
+							potion: "minecraft:fire_resistance"
+						}
+					}
+					count: 1
+					id: "minecraft:potion"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				icon: {
+					components: {
+						"ftbquests:icon": "modificationpackage:textures/gui/elfi.png"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "06646C9CA1BCB4E4"
+				stat: "minecraft:play_time"
+				type: "stat"
+				value: 1
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"31B1CB4EF9465493"
+				"33536BDD78872F79"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "7CCFAA0EDB099B9D"
+			rewards: [
+				{
+					id: "79F300F085FCDD92"
+					type: "xp"
+					xp: 42
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3E4908AEACDDE0CE"
+					table_id: 9164883322194202215L
+					type: "random"
+				}
+			]
+			tasks: [{
+				icon: {
+					components: {
+						"ftbquests:icon": "minecraft:emi_ores/biome_icon/nether_wastes"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "70A21B0F49E4C3EA"
+				structure: "minecraft:fortress"
+				type: "structure"
+			}]
+			x: -0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"31B1CB4EF9465493"
+				"33536BDD78872F79"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "43386A7B12CD6C57"
+			rewards: [
+				{
+					id: "7B7F1D664BE9DAE4"
+					type: "xp"
+					xp: 42
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6C3860A380595D20"
+					table_id: 9164883322194202215L
+					type: "random"
+				}
+			]
+			tasks: [{
+				entity: "rottencreatures:burned"
+				icon: {
+					id: "rottencreatures:burned_head"
+				}
+				id: "0C35836E9A057BA0"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"31B1CB4EF9465493"
+				"33536BDD78872F79"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "5836592AB2E34D41"
+			rewards: [
+				{
+					id: "5833614E0B42BB0C"
+					type: "xp"
+					xp: 42
+				}
+				{
+					exclude_from_claim_all: true
+					id: "72B857FA2B91F0A6"
+					table_id: 9164883322194202215L
+					type: "random"
+				}
+			]
+			tasks: [{
+				icon: {
+					components: {
+						"ftbquests:icon": "biomesoplenty:block/eyebulb_top"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "3E141C0B1BA58272"
+				observe_type: 0
+				timer: 0L
+				to_observe: "biomesoplenty:eyebulb"
+				type: "observation"
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"31B1CB4EF9465493"
+				"33536BDD78872F79"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "200E9F4486E74664"
+			rewards: [
+				{
+					id: "696B46D4A274E145"
+					type: "xp"
+					xp: 42
+				}
+				{
+					exclude_from_claim_all: true
+					id: "540F812EE0157B45"
+					table_id: 9164883322194202215L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "5D61B3C19BB30C46"
+				item: { count: 1, id: "vanillabackport:dried_ghast" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"31B1CB4EF9465493"
+				"33536BDD78872F79"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "024FA7D87A5D9C66"
+			rewards: [
+				{
+					id: "1354FEB972B23989"
+					type: "xp"
+					xp: 42
+				}
+				{
+					exclude_from_claim_all: true
+					id: "40F786F9A5624FAA"
+					table_id: 9164883322194202215L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "3E492AB6F1D474CA"
+				item: { count: 1, id: "minecraft:ancient_debris" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"31B1CB4EF9465493"
+				"33536BDD78872F79"
+				"5024793C016DAFBA"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "5A4A8E760D3AFF76"
+			rewards: [
+				{
+					id: "445D42DEC27BA854"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					count: 10
+					id: "357863E8E25E6A65"
+					item: {
+						count: 1
+						id: "lootbundles:loot_bundle"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6122A25931CB9B16"
+					table_id: 7200705621912210064L
+					type: "random"
+				}
+			]
+			tasks: [{
+				entity: "bosses_of_mass_destruction:gauntlet"
+				icon: {
+					components: {
+						"ftbquests:icon": "bosses_of_mass_destruction:block/gauntlet_blackstone"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "4B671A483A19AB17"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+	]
+}

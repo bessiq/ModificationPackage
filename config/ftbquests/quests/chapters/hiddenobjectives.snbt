@@ -1,0 +1,157 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "hiddenobjectives"
+	group: ""
+	icon: {
+		components: {
+			"ftbquests:icon": "ftblibrary:icons/visibility_hide"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "2B278810D8D37941"
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/gui/sprites/icon/search.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "4754AE9B4002AAB7"
+			tasks: [
+				{
+					id: "6524F94B86B237A7"
+					structure: "fdbosses:chesed_arena"
+					type: "structure"
+				}
+				{
+					id: "5024793C016DAFBA"
+					structure: "bosses_of_mass_destruction:gauntlet_arena"
+					type: "structure"
+				}
+				{
+					id: "20C5317974ADA959"
+					structure: "bosses_of_mass_destruction:lich_tower"
+					type: "structure"
+				}
+				{
+					id: "5447F999784B2031"
+					structure: "bosses_of_mass_destruction:obsidilith_arena"
+					type: "structure"
+				}
+				{
+					id: "2C62D4B5C0D061BE"
+					structure: "bosses_of_mass_destruction:void_blossom"
+					type: "structure"
+				}
+				{
+					id: "7D944B0DB081AB70"
+					structure: "mowziesmobs:frostmaw_spawn"
+					type: "structure"
+				}
+				{
+					id: "1D9A36653DB60709"
+					structure: "mowziesmobs:wrought_chamber"
+					type: "structure"
+				}
+				{
+					id: "48CEE382820B7C57"
+					structure: "mowziesmobs:umvuthana_grove"
+					type: "structure"
+				}
+				{
+					id: "431E2E0C2D51A0ED"
+					structure: "mowziesmobs:monastery"
+					type: "structure"
+				}
+				{
+					id: "51B246B01D7DC191"
+					structure: "cataclysm:acropolis"
+					type: "structure"
+				}
+				{
+					id: "137D458B4E03CC3D"
+					structure: "cataclysm:ancient_factory"
+					type: "structure"
+				}
+				{
+					id: "6C8E0102DDED50D2"
+					structure: "cataclysm:burning_arena"
+					type: "structure"
+				}
+				{
+					id: "58EAE21F10D951ED"
+					structure: "cataclysm:cursed_pyramid"
+					type: "structure"
+				}
+				{
+					id: "1C3D08865C945EFA"
+					structure: "cataclysm:frosted_prison"
+					type: "structure"
+				}
+				{
+					id: "3900020C2461A2E2"
+					structure: "cataclysm:ruined_citadel"
+					type: "structure"
+				}
+				{
+					id: "4ECA3B6571EE6B0A"
+					structure: "cataclysm:soul_black_smith"
+					type: "structure"
+				}
+				{
+					id: "0B5C5FE3B012DCBF"
+					structure: "cataclysm:sunken_city"
+					type: "structure"
+				}
+				{
+					id: "19E9FACFF97E1FCD"
+					structure: "minecraft:ancient_city"
+					type: "structure"
+				}
+				{
+					count: 3L
+					id: "6ED10D56C0A4787B"
+					item: { count: 3, id: "minecraft:wither_skeleton_skull" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "5CB5D19B1B1AD6F9"
+					item: { components: { "ftbfiltersystem:filter": "or(item(minecraft:soul_sand)item(minecraft:soul_soil))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "72FC395A4CD4A048"
+					observe_type: 5
+					timer: 0L
+					to_observe: "minecraft:wither"
+					type: "observation"
+				}
+			]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			id: "590B72C44EF387E9"
+			tasks: [
+				{
+					id: "4374021DCAC2DCA9"
+					item: { count: 1, id: "minecraft:redstone" }
+					type: "item"
+				}
+				{
+					id: "59B867F67DBE4FFD"
+					item: { components: { "ftbfiltersystem:filter": "or(item(minecraft:kelp)item(minecraft:dried_kelp)item(minecraft:black_dye))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 0.0d
+		}
+	]
+}

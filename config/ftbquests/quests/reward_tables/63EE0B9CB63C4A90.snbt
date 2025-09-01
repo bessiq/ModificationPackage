@@ -1,0 +1,42 @@
+{
+	id: "63EE0B9CB63C4A90"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{
+			count: 2
+			id: "1E6A912C212401BC"
+			item: {
+				count: 1
+				id: "mob_loot_bags:legendarylootbag"
+			}
+			weight: 0.4f
+		}
+		{
+			count: 3
+			id: "1C2BA76926479E60"
+			item: {
+				count: 1
+				id: "mob_loot_bags:epiclootbag"
+			}
+			weight: 0.3f
+		}
+		{
+			count: 4
+			id: "2FFAD250FA009B7F"
+			item: {
+				count: 1
+				id: "mob_loot_bags:rarelootbag"
+			}
+			weight: 0.2f
+		}
+		{
+			id: "354C3155193774CC"
+			item: {
+				count: 1
+				id: "mob_loot_bags:cursed_lootbag"
+			}
+			weight: 0.1f
+		}
+	]
+}

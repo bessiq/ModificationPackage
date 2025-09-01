@@ -1,0 +1,484 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "diamond"
+	filename: "the_twilight_zone"
+	group: ""
+	hide_quest_until_deps_complete: true
+	icon: {
+		id: "twilightforest:lich_trophy"
+	}
+	id: "3AD7B718D7E89FC4"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2752D69B0D54887D"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "0ACFE2928803559E"
+			rewards: [
+				{
+					id: "7835C9184886C190"
+					type: "xp"
+					xp: 42
+				}
+				{
+					id: "2A2E7898A694F81E"
+					item: {
+						count: 1
+						id: "twilightdelight:cooked_insect"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0F68EAC60DD9A46F"
+				item: { components: { "patchouli:book": "twilightdelight:twilight_guide" }, count: 1, id: "patchouli:guide_book" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2752D69B0D54887D"]
+			hide_until_deps_complete: true
+			id: "004E8259745ABE9F"
+			rewards: [
+				{
+					id: "0716C2217B2922FE"
+					type: "xp"
+					xp: 42
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0E75381D8AAF2109"
+					table_id: 9164883322194202215L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "30187D9698CC21BE"
+				item: { count: 1, id: "twilightforest:magic_map" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2752D69B0D54887D"]
+			hide_until_deps_complete: true
+			id: "2424122DF7C181ED"
+			rewards: [
+				{
+					id: "007C376F8DECEE2D"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					count: 10
+					id: "7C05E418D89CE599"
+					item: {
+						count: 1
+						id: "lootbundles:loot_bundle"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "235BBEACBF1978F9"
+					table_id: 7200705621912210064L
+					type: "random"
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:lich"
+				icon: {
+					id: "twilightforest:lich_trophy"
+				}
+				id: "498D08458FA433FF"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2752D69B0D54887D"]
+			hide_until_deps_complete: true
+			id: "0CD73A6CF396B0FC"
+			rewards: [
+				{
+					id: "19E5697448840581"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					count: 10
+					id: "513A89EBE760D809"
+					item: {
+						count: 1
+						id: "lootbundles:loot_bundle"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7E14B5D7F24E53E0"
+					table_id: 7200705621912210064L
+					type: "random"
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:snow_queen"
+				icon: {
+					id: "twilightforest:snow_queen_trophy"
+				}
+				id: "02A5D34CE7A2B626"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2752D69B0D54887D"]
+			hide_until_deps_complete: true
+			id: "7312573D29D5573A"
+			rewards: [
+				{
+					id: "3967042CF4FB5542"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					count: 10
+					id: "79FD05665F95502B"
+					item: {
+						count: 1
+						id: "lootbundles:loot_bundle"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "31EAF4D086F5E4CA"
+					table_id: 7200705621912210064L
+					type: "random"
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:naga"
+				icon: {
+					id: "twilightforest:naga_trophy"
+				}
+				id: "4B4F926BFFD6B24B"
+				type: "kill"
+				value: 1L
+			}]
+			x: -0.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2752D69B0D54887D"]
+			hide_until_deps_complete: true
+			id: "02D041E5D5A1D43B"
+			rewards: [
+				{
+					id: "487D2D06B3DF4A3D"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2E0CD12AE5425DB3"
+					table_id: 7200705621912210064L
+					type: "random"
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:minoshroom"
+				icon: {
+					id: "twilightforest:minoshroom_trophy"
+				}
+				id: "7369C4B5BACF6B4D"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2752D69B0D54887D"]
+			hide_until_deps_complete: true
+			id: "00E628FA935BC31D"
+			rewards: [
+				{
+					id: "4B73FB304F505A71"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					count: 10
+					id: "746F9AA32ED0C658"
+					item: {
+						count: 1
+						id: "lootbundles:loot_bundle"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1D5E8BEE69FFFEF1"
+					table_id: 7200705621912210064L
+					type: "random"
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:hydra"
+				icon: {
+					id: "twilightforest:hydra_trophy"
+				}
+				id: "1DD54FA256F94B51"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2752D69B0D54887D"]
+			hide_until_deps_complete: true
+			id: "49F6B65589797978"
+			rewards: [
+				{
+					id: "25B4EB2C4852D171"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					exclude_from_claim_all: true
+					id: "03F7C3103E726384"
+					table_id: 7200705621912210064L
+					type: "random"
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:knight_phantom"
+				icon: {
+					id: "twilightforest:knight_phantom_trophy"
+				}
+				id: "7CEA676E7446368A"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2752D69B0D54887D"]
+			hide_until_deps_complete: true
+			id: "48A2C4010EEA08FB"
+			rewards: [
+				{
+					id: "33A19DA0442D1BBD"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					count: 10
+					id: "75728C339EA4B7DD"
+					item: {
+						count: 1
+						id: "lootbundles:loot_bundle"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7F800EC00DF8FA42"
+					table_id: 7200705621912210064L
+					type: "random"
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:ur_ghast"
+				icon: {
+					id: "twilightforest:ur_ghast_trophy"
+				}
+				id: "13A23AFBF63294F7"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2752D69B0D54887D"]
+			hide_until_deps_complete: true
+			id: "6238DCFA78DAA7C0"
+			rewards: [
+				{
+					id: "71E4B381E2D03349"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					exclude_from_claim_all: true
+					id: "294965FAF984504B"
+					table_id: 7200705621912210064L
+					type: "random"
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:alpha_yeti"
+				icon: {
+					id: "twilightforest:alpha_yeti_trophy"
+				}
+				id: "0C76ED6D39F7AFE5"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"6238DCFA78DAA7C0"
+				"00E628FA935BC31D"
+				"49F6B65589797978"
+				"02D041E5D5A1D43B"
+				"7312573D29D5573A"
+				"0CD73A6CF396B0FC"
+				"48A2C4010EEA08FB"
+				"45B83CDCCFAF4A89"
+				"2752D69B0D54887D"
+				"1DFB3F5B27099648"
+			]
+			hide_dependency_lines: false
+			hide_until_deps_complete: true
+			id: "3F29EDA9F7884B40"
+			invisible: true
+			rewards: [
+				{
+					id: "7A782193621F20A1"
+					type: "xp"
+					xp: 42
+				}
+				{
+					id: "1D298C9FCCECAFC7"
+					item: {
+						count: 1
+						id: "twilighttweaks:time_powder"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: {
+					components: {
+						"ftbquests:icon": "twilightforest:textures/map/decorations/final_castle.png"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "4E00A40EFB476EA5"
+				structure: "twilightforest:final_castle"
+				type: "structure"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2752D69B0D54887D"]
+			hide_until_deps_complete: true
+			id: "170362C3A00E1809"
+			rewards: [{
+				auto: "enabled"
+				command: "/say An Uncrafting Table is a reward in itself."
+				icon: {
+					components: {
+						"ftbquests:icon": "ftblibrary:icons/chat"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "0D763CC900E23A4F"
+				type: "command"
+			}]
+			tasks: [{
+				id: "0E5103CC8DFCB292"
+				item: { count: 1, id: "twilightforest:uncrafting_table" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2752D69B0D54887D"]
+			hide_until_deps_complete: true
+			id: "45B83CDCCFAF4A89"
+			rewards: [
+				{
+					id: "202E6D1223094518"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "119B0BB093D85A89"
+					table_id: 9164883322194202215L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "3C741C9BDCEE62DE"
+				item: { count: 1, id: "twilightforest:quest_ram_trophy" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2752D69B0D54887D"]
+			hide_until_deps_complete: true
+			id: "1DFB3F5B27099648"
+			rewards: [
+				{
+					id: "169CAB19AFE029F0"
+					item: {
+						components: {
+							"minecraft:potion_contents": {
+								potion: "minecraft:invisibility"
+							}
+						}
+						count: 1
+						id: "minecraft:potion"
+					}
+					type: "item"
+				}
+				{
+					id: "3EA93BEA2E57626F"
+					item: {
+						components: {
+							"minecraft:potion_contents": {
+								potion: "minecraft:regeneration"
+							}
+						}
+						count: 1
+						id: "minecraft:potion"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: {
+					id: "twilightforest:firefly"
+				}
+				id: "2E8592A10577A498"
+				stat: "minecraft:play_time"
+				type: "stat"
+				value: 1
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+	]
+}
